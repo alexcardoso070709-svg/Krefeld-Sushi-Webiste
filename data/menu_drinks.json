@@ -1,0 +1,1437 @@
+{
+ "categories": [
+  {
+   "id": "alkoholfrei",
+   "title": "Alkoholfreie Getränke",
+   "source_file": "getränke_alkoholfrei__i69de89787662c0df.png",
+   "groups": [
+    {
+     "title": "",
+     "items": [
+      {
+       "name": "Asiatischer Kräuter Iced Tea",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Dose 0,33l",
+         "price": "4,00"
+        }
+       ]
+      },
+      {
+       "name": "Asiatischer Green Iced Tea",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,5l",
+         "price": "5,70"
+        }
+       ]
+      },
+      {
+       "name": "Eis Tee",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,30"
+        },
+        {
+         "vol": "0,4l",
+         "price": "3,80"
+        }
+       ]
+      },
+      {
+       "name": "Coca Cola¹,³,⁹",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,30"
+        },
+        {
+         "vol": "0,4l",
+         "price": "3,80"
+        }
+       ]
+      },
+      {
+       "name": "Coca Cola Light¹,³,⁹,¹⁰",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,30"
+        },
+        {
+         "vol": "0,4l",
+         "price": "3,80"
+        }
+       ]
+      },
+      {
+       "name": "Coca Cola Zero¹,³,⁹,¹⁰",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,30"
+        },
+        {
+         "vol": "0,4l",
+         "price": "3,80"
+        }
+       ]
+      },
+      {
+       "name": "Fanta¹,³",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,30"
+        },
+        {
+         "vol": "0,4l",
+         "price": "3,80"
+        }
+       ]
+      },
+      {
+       "name": "Sprite³",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,30"
+        },
+        {
+         "vol": "0,4l",
+         "price": "3,80"
+        }
+       ]
+      },
+      {
+       "name": "Gerolsteiner Wasser",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Fl. 0,25l",
+         "price": "2,80"
+        },
+        {
+         "vol": "Fl. 0,75l",
+         "price": "6,50"
+        }
+       ]
+      },
+      {
+       "name": "Gerolsteiner Wasser still",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Fl. 0,25l",
+         "price": "2,80"
+        },
+        {
+         "vol": "Fl. 0,75l",
+         "price": "6,50"
+        }
+       ]
+      },
+      {
+       "name": "Apfelschorle",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,40"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,00"
+        }
+       ]
+      },
+      {
+       "name": "Orangenschorle",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,40"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,00"
+        }
+       ]
+      },
+      {
+       "name": "Kirschschorle",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,40"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,00"
+        }
+       ]
+      },
+      {
+       "name": "Mangoschorle",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,40"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,00"
+        }
+       ]
+      },
+      {
+       "name": "Maracujaschorle",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,40"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,00"
+        }
+       ]
+      },
+      {
+       "name": "Guavaschorle",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,40"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,00"
+        }
+       ]
+      },
+      {
+       "name": "Litschischorle",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,40"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,00"
+        }
+       ]
+      },
+      {
+       "name": "Fassbrause Zitrone",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,33l",
+         "price": "3,50"
+        }
+       ]
+      },
+      {
+       "name": "Vitamalz",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,33l",
+         "price": "3,50"
+        }
+       ]
+      },
+      {
+       "name": "Ginger Ale¹,³",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Fl. 0,2l",
+         "price": "2,70"
+        }
+       ]
+      },
+      {
+       "name": "Tonic Water³,¹⁰",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Fl. 0,2l",
+         "price": "2,70"
+        }
+       ]
+      },
+      {
+       "name": "Bitter Lemon¹,³,¹⁰",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Fl. 0,2l",
+         "price": "2,70"
+        }
+       ]
+      },
+      {
+       "name": "Red Bull¹,⁹",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Dose 0,25l",
+         "price": "3,60"
+        }
+       ]
+      },
+      {
+       "name": "Apfelsaft",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,70"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,20"
+        }
+       ]
+      },
+      {
+       "name": "Orangensaft",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,70"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,20"
+        }
+       ]
+      },
+      {
+       "name": "Bananennektar",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,70"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,20"
+        }
+       ]
+      },
+      {
+       "name": "Kirschnektar",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,70"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,20"
+        }
+       ]
+      },
+      {
+       "name": "Kibanektar",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,70"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,20"
+        }
+       ]
+      },
+      {
+       "name": "Mangosaft",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,70"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,20"
+        }
+       ]
+      },
+      {
+       "name": "Maracujasaft",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,70"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,20"
+        }
+       ]
+      },
+      {
+       "name": "Guavensaft",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,70"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,20"
+        }
+       ]
+      },
+      {
+       "name": "Litschisaft",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "2,70"
+        },
+        {
+         "vol": "0,4l",
+         "price": "4,20"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "tab": "Alkoholfrei",
+   "notes_internal": [
+    "Neben mehreren Positionen sind Markenlogos abgebildet (Coca-Cola, Fanta, Sprite, Gerolsteiner, Schweppes) – nicht als Text transkribiert.",
+    "Hochkant-Datei (1600x3852px), aber komplett und ohne Zuschnitt lesbar."
+   ]
+  },
+  {
+   "id": "alkoholische-getraenke",
+   "title": "Alkoholische Getränke",
+   "source_file": "getränke_alkoholische-getränke__i11315394368b23ae.png",
+   "groups": [
+    {
+     "title": "",
+     "items": [
+      {
+       "name": "Sake",
+       "desc": "(japanischer Reiswein, warm)",
+       "sizes": [
+        {
+         "vol": "0,1l",
+         "price": "6,60"
+        }
+       ]
+      },
+      {
+       "name": "Japanischer Pflaumenwein",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "5cl",
+         "price": "4,30"
+        }
+       ]
+      },
+      {
+       "name": "Shochu",
+       "desc": "(Japansiche Spirituose aus Süßkartoffeln)",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Martini Bianco, Rosso, Sherry Medium",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "5cl",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Campari¹",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Campari¹ Orange",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "5,80"
+        }
+       ]
+      },
+      {
+       "name": "Bacardi¹",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Bacardi Cola¹,³,⁹",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "5,80"
+        }
+       ]
+      },
+      {
+       "name": "Whiskey Jack Daniel`s",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "4,50"
+        }
+       ]
+      },
+      {
+       "name": "Whiskey Johnnie Walker Black Label",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "4,20"
+        }
+       ]
+      },
+      {
+       "name": "Whiskey Cola¹,³,⁹",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "5,80"
+        }
+       ]
+      },
+      {
+       "name": "Vodka Absolut",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Vodka Smirnoff",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Vodka Cola¹,³,⁹",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "5,80"
+        }
+       ]
+      },
+      {
+       "name": "Vodka Lemon",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "5,80"
+        }
+       ]
+      },
+      {
+       "name": "Vodka Red Bull",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "5,80"
+        }
+       ]
+      },
+      {
+       "name": "Gin",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Gin Tonic³,¹⁰",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "5,80"
+        }
+       ]
+      },
+      {
+       "name": "Asbach Uralt",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Remy Martin V.S.O.P.",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "4,50"
+        }
+       ]
+      },
+      {
+       "name": "Malteser",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Jägermeister",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Underberg",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Bailey´s",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "4cl",
+         "price": "5,20"
+        }
+       ]
+      },
+      {
+       "name": "Fernet Branca",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Ramazotti",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Sambuca",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Tequila",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Grappa",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "2cl",
+         "price": "3,00"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "tab": "Alkoholisch",
+   "notes_internal": [
+    "Zwei Produktfotos (Bacardi-Cola-Longdrink, Absolut-Vodka-Flasche, Fernet-Branca/Ramazotti-Flaschen) im Bild – nicht als Text relevant.",
+    "Schreibweisen wie im Original belassen (z.B. \"Jack Daniel`s\", \"Bailey´s\", \"Japansiche\", \"Ramazotti\")."
+   ]
+  },
+  {
+   "id": "biere",
+   "title": "Biere",
+   "source_file": "getränke_biere__i5cec4db5112e6d07.png",
+   "groups": [
+    {
+     "title": "",
+     "items": [
+      {
+       "name": "Beck´sᴬ",
+       "desc": "vom Fass",
+       "sizes": [
+        {
+         "vol": "0,3l",
+         "price": "3,00"
+        },
+        {
+         "vol": "0,4l",
+         "price": "3,90"
+        }
+       ]
+      },
+      {
+       "name": "Diebels Altᴬ",
+       "desc": "vom Fass",
+       "sizes": [
+        {
+         "vol": "0,3l",
+         "price": "3,00"
+        },
+        {
+         "vol": "0,4l",
+         "price": "3,90"
+        }
+       ]
+      },
+      {
+       "name": "Franziskaner Weissbierᴬ",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Fl. 0,5l",
+         "price": "4,90"
+        }
+       ]
+      },
+      {
+       "name": "Asahi japanisches Bierᴬ",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Fl. 0,33l",
+         "price": "4,10"
+        }
+       ]
+      },
+      {
+       "name": "Kirin japanisches Bierᴬ",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Fl. 0,33l",
+         "price": "4,10"
+        }
+       ]
+      },
+      {
+       "name": "Franziskaner Weizenᴬ",
+       "desc": "alkoholfrei",
+       "sizes": [
+        {
+         "vol": "Fl. 0,5l",
+         "price": "4,90"
+        }
+       ]
+      },
+      {
+       "name": "Beck´sᴬ",
+       "desc": "alkoholfrei",
+       "sizes": [
+        {
+         "vol": "Fl. 0,33l",
+         "price": "3,80"
+        }
+       ]
+      },
+      {
+       "name": "Bananen-Weizenᴬ",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Fl. 0,5l",
+         "price": "4,90"
+        }
+       ]
+      },
+      {
+       "name": "Alsterᴬ",
+       "desc": "(Pils mit Fanta¹,³)",
+       "sizes": [
+        {
+         "vol": "0,3l",
+         "price": "3,00"
+        },
+        {
+         "vol": "0,4l",
+         "price": "3,90"
+        }
+       ]
+      },
+      {
+       "name": "Radlerᴬ",
+       "desc": "(Pils mit Sprite³)",
+       "sizes": [
+        {
+         "vol": "0,3l",
+         "price": "3,00"
+        },
+        {
+         "vol": "0,4l",
+         "price": "3,90"
+        }
+       ]
+      },
+      {
+       "name": "Krefelderᴬ",
+       "desc": "(Altbier mit Cola¹,³,⁹)",
+       "sizes": [
+        {
+         "vol": "0,3l",
+         "price": "3,00"
+        },
+        {
+         "vol": "0,4l",
+         "price": "3,90"
+        }
+       ]
+      },
+      {
+       "name": "Alt-Schussᴬ",
+       "desc": "(Altbier mit Malzbier)",
+       "sizes": [
+        {
+         "vol": "0,3l",
+         "price": "3,00"
+        },
+        {
+         "vol": "0,4l",
+         "price": "3,90"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "tab": "Biere",
+   "notes_internal": [
+    "Text im Original war weiß auf weißem/transparentem Hintergrund und nur nach Kontrastanpassung (PIL autocontrast) sichtbar/lesbar.",
+    "Logos abgebildet: Beck's, Diebels Alt, Franziskaner Weissbier – nicht als Text relevant.",
+    "Apostroph bei \"Beck´s\" wie im Original (Akut-Akzent) übernommen."
+   ]
+  },
+  {
+   "id": "cocktails",
+   "title": "Cocktails",
+   "source_file": "getränke_cocktails__i7230031b7aa9c597.png",
+   "groups": [
+    {
+     "title": "",
+     "items": [
+      {
+       "name": "Virgin Colada",
+       "desc": "(alkoholfrei)",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "6,50"
+        }
+       ]
+      },
+      {
+       "name": "Sportsman",
+       "desc": "(alkoholfrei)",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "6,50"
+        }
+       ]
+      },
+      {
+       "name": "Strawberry Colada",
+       "desc": "(alkoholfrei)",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "6,50"
+        }
+       ]
+      },
+      {
+       "name": "Pina Colada",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "6,90"
+        }
+       ]
+      },
+      {
+       "name": "Swimming Pool",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "6,90"
+        }
+       ]
+      },
+      {
+       "name": "Mai Tai",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "6,90"
+        }
+       ]
+      },
+      {
+       "name": "Sex on the Beach",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "6,90"
+        }
+       ]
+      },
+      {
+       "name": "Zombie",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "6,90"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "tab": "Cocktails",
+   "notes_internal": [
+    "Text im Original war weiß auf weißem/transparentem Hintergrund und nur nach Kontrastanpassung (PIL autocontrast) sichtbar/lesbar.",
+    "Ein Foto (Piña-Colada-artiges Getränk am Strand) ist Teil dieser Menüdatei."
+   ]
+  },
+  {
+   "id": "heisse-getraenke",
+   "title": "Heiße Getränke",
+   "source_file": "getränke_heisse-getränke__i93c1a7e90e89caca.png",
+   "groups": [
+    {
+     "title": "",
+     "items": [
+      {
+       "name": "Jasmintee",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Kännchen",
+         "price": "4,00"
+        }
+       ]
+      },
+      {
+       "name": "Grüner Tee",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Kännchen",
+         "price": "4,00"
+        }
+       ]
+      },
+      {
+       "name": "Oolongtee",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Kännchen",
+         "price": "4,00"
+        }
+       ]
+      },
+      {
+       "name": "Frischer Ingwertee",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Kännchen",
+         "price": "4,50"
+        }
+       ]
+      },
+      {
+       "name": "Schwarztee",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "2,60"
+        }
+       ]
+      },
+      {
+       "name": "Früchtetee",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "2,60"
+        }
+       ]
+      },
+      {
+       "name": "Pfefferminztee",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "2,60"
+        }
+       ]
+      },
+      {
+       "name": "Kamillentee",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "2,60"
+        }
+       ]
+      },
+      {
+       "name": "Espresso⁹",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "2,70"
+        }
+       ]
+      },
+      {
+       "name": "Kaffee⁹",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "2,70"
+        }
+       ]
+      },
+      {
+       "name": "Cappucino⁹",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "3,00"
+        }
+       ]
+      },
+      {
+       "name": "Milchkaffee⁹",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "3,50"
+        }
+       ]
+      },
+      {
+       "name": "Latte Macchiato⁹",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "3,50"
+        }
+       ]
+      },
+      {
+       "name": "Heiße Schokolade",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "",
+         "price": "3,00"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "tab": "Heißgetränke",
+   "notes_internal": [
+    "Text im Original war weiß auf weißem/transparentem Hintergrund und nur nach Kontrastanpassung (PIL autocontrast) sichtbar/lesbar.",
+    "Zwei Fotos (Cappuccino-Tasse, Latte-Macchiato-Glas) Teil dieser Menüdatei.",
+    "Schreibweise \"Cappucino\" wie im Original belassen (statt \"Cappuccino\")."
+   ]
+  },
+  {
+   "id": "spritzig-erfrischend",
+   "title": "Spritzig Erfrischend",
+   "source_file": "getränke_spritzig-erfrischend__ifb11c16788bd090b.png",
+   "groups": [
+    {
+     "title": "",
+     "items": [
+      {
+       "name": "Aperol Spritzᴸ",
+       "desc": "(Sekt, Aperol³,⁹, Soda)",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "6,10"
+        }
+       ]
+      },
+      {
+       "name": "Lichi Spritzᴸ",
+       "desc": "(Sekt, Litchisirup¹⁰, Soda, & Limetten)",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "6,10"
+        }
+       ]
+      },
+      {
+       "name": "Mango Spritzᴸ",
+       "desc": "(Sekt, Mangosirup¹⁰, Soda & Limetten)",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "6,10"
+        }
+       ]
+      },
+      {
+       "name": "Hugoᴸ",
+       "desc": "(Sekt, Holunderblütensirup¹⁰ & Limetten)",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "6,10"
+        }
+       ]
+      },
+      {
+       "name": "Kir Royalᴸ",
+       "desc": "(Creme de Cassis mit Sekt)",
+       "sizes": [
+        {
+         "vol": "0,2l",
+         "price": "6,10"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "tab": "Spritzig",
+   "notes_internal": [
+    "Text im Original war weiß auf weißem/transparentem Hintergrund und nur nach Kontrastanpassung (PIL autocontrast) sichtbar/lesbar."
+   ]
+  },
+  {
+   "id": "weine-prickelndes",
+   "title": "Weine & Prickelndes",
+   "source_file": "getränke_weine-prickelndes__i5e574235e29f1ffc.png",
+   "groups": [
+    {
+     "title": "Weißweineᴸ",
+     "items": [
+      {
+       "name": "Weinschorle",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Glas 0,2l",
+         "price": "4,90"
+        }
+       ]
+      },
+      {
+       "name": "Pinot Grigio",
+       "desc": "Venezie „LA SCALA“. Zartgelbe Farbe, Aromen von Heu und gerösteten Mandeln, feine Pfirsichnote, im Abgang weich und harmonisch.",
+       "sizes": [
+        {
+         "vol": "Glas 0,2l",
+         "price": "5,90"
+        },
+        {
+         "vol": "Flasche 0,75l",
+         "price": "23,90"
+        }
+       ]
+      },
+      {
+       "name": "Riesling Kabinett trocken",
+       "desc": "Haardter Herrenletten, WG Weinbiet, Neustadt. Ein rassiger Wein mit eleganter Restsüße und intensiven minerlischen Aromen.",
+       "sizes": [
+        {
+         "vol": "Glas 0,2l",
+         "price": "5,90"
+        },
+        {
+         "vol": "Flasche 0,75l",
+         "price": "23,90"
+        }
+       ]
+      },
+      {
+       "name": "Grauburgunder Kabinett Oktav",
+       "desc": "VdP-Weingut Dr. Heger, Ihringen, Baden, Kaiserstuhl. Feinwürziger Grauburgunder vom Kaiserstuhl mit gut eingebundener Säure und Noten von Honig und Melone. Dezente Mineralik.",
+       "sizes": [
+        {
+         "vol": "Glas 0,2l",
+         "price": "5,90"
+        },
+        {
+         "vol": "Flasche 0,75l",
+         "price": "23,90"
+        }
+       ]
+      },
+      {
+       "name": "Silvaner halbtrocken",
+       "desc": "Gimmeldinger Meerspinne, WG Weinbiet, Neustadt. Der Kreuzung aus Trollinger (Rot) und Riesling (Weiß) entstammt dieser blumige und gehaltvolle Weißwein. Er hat einen feinen Duft der an Aprikose erinnert und ist dennoch kräftig im Abgang.",
+       "sizes": [
+        {
+         "vol": "Glas 0,2l",
+         "price": "5,90"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Rotweineᴸ",
+     "items": [
+      {
+       "name": "Merlot Grand Süd",
+       "desc": "Venezie „LA SCALA“. Trockener, saftiger Merlot, Duft nach Kirsche und Brombeere, leicht und süffig.",
+       "sizes": [
+        {
+         "vol": "Glas 0,2l",
+         "price": "5,90"
+        }
+       ]
+      },
+      {
+       "name": "Merlot halbtrocken",
+       "desc": "WG Vier Jahreszeiten. Zartrauchriger Duft von Schwarzkirschen, vollmundiger Geschmack.",
+       "sizes": [
+        {
+         "vol": "Glas 0,2l",
+         "price": "5,90"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Roséweineᴸ",
+     "items": [
+      {
+       "name": "Dornfelder Rosé",
+       "desc": "Vier Jahreszeiten Winzer, Bad Dürkheim. Kirscharomen pur, rund und harmonisch. Halbtrockener, farbintensiver Rosé mit Sortenaroma, frisch und lebendig.",
+       "sizes": [
+        {
+         "vol": "Glas 0,2l",
+         "price": "5,90"
+        },
+        {
+         "vol": "Flasche 0,75l",
+         "price": "23,90"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Prickelndesᴸ",
+     "items": [
+      {
+       "name": "Prosecco Frizzante",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Piccolo 0,2l",
+         "price": "6,50"
+        }
+       ]
+      },
+      {
+       "name": "Prosecco DOC Frizzante",
+       "desc": "",
+       "sizes": [
+        {
+         "vol": "Flasche 0,75l",
+         "price": "19,90"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "tab": "Weine & Prosecco",
+   "notes_internal": [
+    "Text im Original war sehr blass/hellgrau auf Weiß und wurde per PIL autocontrast lesbar gemacht.",
+    "Die Abschnitte \"Rotweineᴸ\", \"Roséweineᴸ\" und \"Prickelndesᴸ\" enthalten in der erfassten Datei nur die Überschrift, aber keine sichtbaren Positionen/Preise (evtl. unvollständig befüllte Quellseite oder abgeschnittener Screenshot). Unter \"Prickelndesᴸ\" ist am unteren Bildrand nur ein nicht lesbares Textfragment sichtbar.",
+    "Tippfehler/eigenwillige Schreibweisen wie im Original belassen (\"Weinbiet\", \"minerlischen\")."
+   ]
+  },
+  {
+   "id": "zusatzstoffe",
+   "title": "Zusatzstoffe & Allergene (Legende)",
+   "source_file": "getränke__i9e9af5fa951075f6.png",
+   "notes": [
+    "1) mit Farbstoff",
+    "2) mit Konservierungsstoff",
+    "3) mit Antioxidationsmittel",
+    "4) mit Geschmacksverstärker",
+    "5) geschwefelt",
+    "6) geschwärzt",
+    "7) mit Phosphat",
+    "8) mit Milcheiweiß",
+    "9) koffeinhaltig",
+    "10) chininhaltig",
+    "11) mit Süßungsmittel",
+    "12) enthält eine Phenylalaninquelle",
+    "13) gewachst",
+    "14) mit Taurin",
+    "A) Glutenhaltiges Getreide (Weizen, Roggen, Gerste, Hafer)",
+    "L) Schwefeldioxid und Sulfite"
+   ],
+   "groups": []
+  }
+ ],
+ "photos": [
+  {
+   "file": "getränke__i2f2574f30a0f9686.jpg",
+   "desc": "Drei Weingläser (Weiß-, Rosé- und Rotwein) mit zwei Weinflaschen im Hintergrund und Trauben (grün und dunkel) im Vordergrund vor Sackleinen-Hintergrund",
+   "quality": "gut, hochauflösend, stimmungsvoll, gut als Bild für Weinkategorie geeignet"
+  },
+  {
+   "file": "getränke__i330969bcc208fe0c.jpg",
+   "desc": "Vier Gläser braune Spirituosen (Whiskey/Rum-artig) mit Eiswürfeln, einer Zitronenscheibe und ein Cola-Longdrink mit Limette im Hintergrund, freigestellt auf Weiß",
+   "quality": "gut, scharf, sauber freigestellt, gut für Spirituosen-/Longdrink-Kategorie geeignet"
+  },
+  {
+   "file": "getränke__i3dbaf1d014a3c1e1.jpg",
+   "desc": "Mojito-artiger Longdrink mit Limette, Minze, Strohhalm und Deko-Sonnenschirmchen, davor Seestern und Muschel, vor Strand-/Meer-Fotomontage-Hintergrund",
+   "quality": "in Ordnung; Motiv wirkt wie digitale Fotomontage/Composing, Hintergrund unscharf/generisch"
+  },
+  {
+   "file": "getränke__i754630d87ba6e1fd.jpg",
+   "desc": "Hochformat-Nahaufnahme eines spritzenden Cola-Glases mit Eiswürfeln vor warmem, unscharfem Lichter-Bokeh-Hintergrund",
+   "quality": "sehr gut, dynamisch, hohe Auflösung, stimmungsvoll"
+  },
+  {
+   "file": "getränke__ib09080c237aeefc3.jpg",
+   "desc": "Sektkühler (Metalleimer) mit Champagnerflasche und zwei gefüllten Sektgläsern, freigestellt auf Weiß",
+   "quality": "gut, elegant, sauber freigestellt, gut für Sekt-/Prickelndes-Kategorie geeignet"
+  },
+  {
+   "file": "getränke_cocktails__i746dabec4bfc49b3.jpg",
+   "desc": "Spritzendes Cola-/Longdrink-Glas mit Limettenscheiben, Limettenhälfte und Eiswürfeln vor dunklem Hintergrund",
+   "quality": "sehr gut, dramatisches Licht, hohe Auflösung, gut für Cocktail-/Longdrink-Kategorie geeignet"
+  },
+  {
+   "file": "getränke_spritzig-erfrischend__i931604b46c49bc61.jpg",
+   "desc": "Mojito-artiger Longdrink mit Limette, Minze, Strohhalm und Deko-Sonnenschirmchen vor Strand-/Meer-Hintergrund (nahezu identisches Motiv wie getränke__i3dbaf1d014a3c1e1.jpg)",
+   "quality": "in Ordnung; wirkt wie digitale Fotomontage/Composing, evtl. Duplikat des anderen Mojito-Fotos"
+  }
+ ]
+}

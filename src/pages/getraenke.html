@@ -1,0 +1,59 @@
+<!--{"title": "Getränke | Keyaki Sushi & Grill Krefeld", "desc": "Getränkekarte des Restaurant Keyaki in Krefeld: Softdrinks, Säfte, Biere, Sake, Cocktails, Weine, Prosecco und heiße Getränke.", "active": "drinks"}-->
+<main>
+  <section class="page-hero" style="background-image:url('{{img:page-bg}}')">
+    <div class="container page-hero-grid">
+      <div class="reveal">
+        <span class="pretitle">飲み物</span>
+        <h1>Getränke &amp;<br>Cocktails</h1>
+      </div>
+      <div class="reveal delay-2">
+        <p>Vom Asiatischen Iced Tea über japanischen Sake und frisch gezapftes Bier bis zu Cocktails, ausgewählten Weinen und Prosecco – die passende Begleitung zu Sushi &amp; Grill.</p>
+        <div class="breadcrumb"><a href="index.html">Home</a> / Getränke</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="post-grid">
+        <a href="#cocktails" class="post-card reveal">
+          <div class="post-img reveal-img"><img src="{{img:drink-cocktail}}" alt="Cocktails" loading="lazy"></div>
+          <div class="post-meta"><span>Getränke</span><span class="sep"></span><span>Bar</span></div>
+          <h3>Cocktails &amp; spritzige Longdrinks</h3>
+        </a>
+        <a href="#weine-prickelndes" class="post-card reveal delay-1">
+          <div class="post-img reveal-img"><img src="{{img:drink-wine}}" alt="Weine und Prosecco" loading="lazy"></div>
+          <div class="post-meta"><span>Getränke</span><span class="sep"></span><span>Wein</span></div>
+          <h3>Ausgewählte Weine &amp; Prickelndes</h3>
+        </a>
+        <a href="#alkoholische-getraenke" class="post-card reveal delay-2">
+          <div class="post-img reveal-img"><img src="{{img:drink-sake}}" alt="Sake und Spirituosen" loading="lazy"></div>
+          <div class="post-meta"><span>Getränke</span><span class="sep"></span><span>Japan</span></div>
+          <h3>Sake, Pflaumenwein &amp; Spirituosen</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-grey" id="karte">
+    <div class="container" data-tabs data-tabs-hash>
+      {{render:drinks_tabs}}
+      <div style="margin-top:60px">
+        <h3 class="menu-group-title">Zusatzstoffe &amp; Allergene</h3>
+        {{render:additives}}
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner" style="background-image:url('{{img:cta-bg}}')">
+    <div class="container">
+      <div class="cta-inner reveal">
+        <h2>Beim Buffet<br>ein Getränk dazu</h2>
+        <p>Bei Teilnahme am All you can eat gilt 1 Getränk Mindestverzehr, ansonsten 1,00 € Zuschlag.</p>
+        <div class="btn-group"><a href="speisekarte.html" class="btn">Zur Speisekarte</a></div>
+      </div>
+    </div>
+  </section>
+
+  {{> reservation}}
+</main>

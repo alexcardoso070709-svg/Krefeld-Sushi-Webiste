@@ -1,0 +1,15 @@
+{
+  "tabs": [
+    {"label": "Sushi & Maki", "items": [
+      ["nigiri-maki", "1", "sashimi-3"], ["nigiri-maki", "2", "sashimi-1"],
+      ["nigiri-maki", "43", "chopsticks-1"], ["nigiri-maki", "44", "tempura-2"],
+      ["dinner", "160", "chopsticks-2"], ["dinner", "161", "maki"]]},
+    {"label": "Warm & Grill", "items": [
+      ["warm-dishes", "79", "gyoza"], ["warm-dishes", "88", "tempura-1"],
+      ["warm-dishes", "93", "yakitori"], ["dinner", "152", "nigiri-1"],
+      ["salate-suppen", "68", "fried-rice"], ["salate-suppen", "74", "ramen"]]},
+    {"label": "Beilagen & Dessert", "items": [
+      ["salate-suppen", "64", "edamame-2"], ["salate-suppen", "72", "miso"],
+      ["sideorders", "200", "sashimi-2"], ["desserts", "124", "dessert"]]}
+  ]
+}

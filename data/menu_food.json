@@ -1,0 +1,1791 @@
+{
+ "legend": [
+  "1) mit Farbstoff",
+  "2) mit Konservierungsstoff",
+  "3) Aufgrund des hohen Quecksilbergehaltes kann der übermäßige Verzehr abführend wirken."
+ ],
+ "categories": [
+  {
+   "id": "nigiri-maki",
+   "tab": "Nigiri & Maki",
+   "title": "Nigiri · Maki · Gunkan · Temaki",
+   "subtitle": "Im All-you-can-eat-Preis enthalten.",
+   "groups": [
+    {
+     "title": "",
+     "items": [
+      {
+       "no": "1",
+       "name": "Sake",
+       "desc": "(Lachs)"
+      },
+      {
+       "no": "2",
+       "name": "Maguro",
+       "desc": "(Thunfisch)"
+      },
+      {
+       "no": "3",
+       "name": "Ebi",
+       "desc": "(Garnelen)"
+      },
+      {
+       "no": "4",
+       "name": "Ama Ebi",
+       "desc": "(Süßwassershrimps)"
+      },
+      {
+       "no": "5",
+       "name": "Tako",
+       "desc": "(Oktopus)"
+      },
+      {
+       "no": "6",
+       "name": "Inari",
+       "desc": "(Tofutasche)"
+      },
+      {
+       "no": "7",
+       "name": "Kani",
+       "desc": "(Surimi)"
+      },
+      {
+       "no": "8",
+       "name": "Tamago",
+       "desc": "(Omelette)"
+      },
+      {
+       "no": "9",
+       "name": "Avocado"
+      },
+      {
+       "no": "10",
+       "name": "Ika",
+       "desc": "(Tintenfisch)"
+      },
+      {
+       "no": "11",
+       "name": "Ahiru",
+       "desc": "(Ente)"
+      },
+      {
+       "no": "12",
+       "name": "Kinusaya",
+       "desc": "(Zuckererbsen)"
+      },
+      {
+       "no": "13",
+       "name": "Saba",
+       "desc": "(Makrele)"
+      },
+      {
+       "no": "14",
+       "name": "Izumidai",
+       "desc": "(Tilapia)"
+      },
+      {
+       "no": "15",
+       "name": "Mutsu³",
+       "desc": "(Butterfisch)"
+      },
+      {
+       "no": "16",
+       "name": "Sake Maki",
+       "desc": "(Lachs)"
+      },
+      {
+       "no": "17",
+       "name": "Kappa Maki",
+       "desc": "(Gurken)"
+      },
+      {
+       "no": "18",
+       "name": "Tekka Maki",
+       "desc": "(Thunfisch)"
+      },
+      {
+       "no": "19",
+       "name": "Tamago Maki",
+       "desc": "(Omelette)"
+      },
+      {
+       "no": "20",
+       "name": "Kani Maki¹,²",
+       "desc": "(Surimi)"
+      },
+      {
+       "no": "21",
+       "name": "Avocado Maki"
+      },
+      {
+       "no": "22",
+       "name": "Ebi Maki",
+       "desc": "(Garnelen)"
+      },
+      {
+       "no": "23",
+       "name": "Mutsu Maki³",
+       "desc": "(Butterfisch, scharf)",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "24",
+       "name": "Kapyo Maki¹,²",
+       "desc": "(Kürbis)"
+      },
+      {
+       "no": "25",
+       "name": "Shinko Maki",
+       "desc": "(eingelegter Rettich)"
+      },
+      {
+       "no": "26",
+       "name": "Tuna Maki",
+       "desc": "(Thunfisch gekocht, scharf)",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "27",
+       "name": "Ebiko Gunkan",
+       "desc": "(Garnelenrogen)"
+      },
+      {
+       "no": "28",
+       "name": "Chuka Wakame Gunkan¹,²",
+       "desc": "(Algen)"
+      },
+      {
+       "no": "29",
+       "name": "Mais Gunkan",
+       "desc": "(Mais)"
+      },
+      {
+       "no": "30",
+       "name": "Kani Gunkan",
+       "desc": "(Surimi)"
+      },
+      {
+       "no": "31",
+       "name": "Sake Gunkan",
+       "desc": "(Lachs)"
+      },
+      {
+       "no": "32",
+       "name": "Tuna Gunkan",
+       "desc": "(Thunfisch)"
+      },
+      {
+       "no": "33",
+       "name": "Green Masago Gunkan¹,²",
+       "desc": "(Fischrogen)"
+      },
+      {
+       "no": "34",
+       "name": "Cream Cheese Roll²",
+       "desc": "(Frischkäse & Gurke)"
+      },
+      {
+       "no": "35",
+       "name": "Kawa Maki",
+       "desc": "(gekochter Lachs & Avocado)"
+      },
+      {
+       "no": "36",
+       "name": "Tori no Karaage Maki",
+       "desc": "(Frittiertes Huhn & Gurke)"
+      },
+      {
+       "no": "37",
+       "name": "Tempura California Maki",
+       "desc": "(Avocado & Surimi)"
+      },
+      {
+       "no": "38",
+       "name": "Red California Maki¹,²",
+       "desc": "(Surimi & Avocado mit Red Massago)"
+      },
+      {
+       "no": "39",
+       "name": "Green California Maki¹,²",
+       "desc": "(Surimi & Avocado mit Green Massago)"
+      },
+      {
+       "no": "40",
+       "name": "Spicy Tuna Maki",
+       "desc": "(Thunfisch, scharf)",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "41",
+       "name": "Spicy Kawa Maki",
+       "desc": "(gekochter Lachs, scharf)",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "42",
+       "name": "Banana Maki"
+      },
+      {
+       "no": "43",
+       "name": "Futo Maki¹,²",
+       "desc": "(Große Mixrolle)"
+      },
+      {
+       "no": "44",
+       "name": "Tempura Futo Maki¹,²",
+       "desc": "(frittierte große Mixrolle)"
+      },
+      {
+       "no": "45",
+       "name": "Sake Temaki",
+       "desc": "(Lachs)"
+      },
+      {
+       "no": "46",
+       "name": "Maguro Temaki",
+       "desc": "(Thunfisch)"
+      },
+      {
+       "no": "47",
+       "name": "Wakame Temaki¹,²",
+       "desc": "(Algen)"
+      },
+      {
+       "no": "48",
+       "name": "California Temaki¹,²",
+       "desc": "(Surimi & Avocado)"
+      },
+      {
+       "no": "49",
+       "name": "Tamago Temaki",
+       "desc": "(Omelette)"
+      },
+      {
+       "no": "50",
+       "name": "Ebi Temaki",
+       "desc": "(Garnelen)"
+      },
+      {
+       "no": "51",
+       "name": "Mix Temaki",
+       "desc": "(Garnelen, Lachs und Thunfisch)"
+      }
+     ]
+    }
+   ],
+   "source_notes": [
+    "1) mit Farbstoff, 2) mit Konservierungsstoff, 3) Aufgrund des hohen Quecksilbergehaltes kann der übermäßige Verzehr abführend wirken.",
+    "Banner-Bild i5967c96a906a1d48.png (1600x91) enthält nur die vorstehende Fußnotenzeile, keinen Kategorietitel."
+   ]
+  },
+  {
+   "id": "salate-suppen",
+   "tab": "Salate & Suppen",
+   "title": "Salate · Suppen · Nudeln · Reis",
+   "subtitle": "Im All-you-can-eat-Preis enthalten.",
+   "groups": [
+    {
+     "title": "",
+     "items": [
+      {
+       "no": "60",
+       "name": "Goma Wakame¹,²",
+       "desc": "(grüner Algensalat)"
+      },
+      {
+       "no": "61",
+       "name": "Kimchi¹",
+       "desc": "(scharfer eingelegter Chinakohlsalat)",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "62",
+       "name": "Kyuri Tsukemono",
+       "desc": "(eingelegter Gurkensalat)"
+      },
+      {
+       "no": "63",
+       "name": "Hiya Yakko",
+       "desc": "(kalter Tofu)"
+      },
+      {
+       "no": "64",
+       "name": "Edamame",
+       "desc": "(grüne junge Sojabohnen)"
+      },
+      {
+       "no": "65",
+       "name": "Chuka Ika Sansai",
+       "desc": "(Tintenfisch-Algen-Salat mit Seetang)"
+      },
+      {
+       "no": "66",
+       "name": "Kohlrabisalat"
+      },
+      {
+       "no": "67",
+       "name": "Avocadosalat"
+      },
+      {
+       "no": "68",
+       "name": "Yaki Meshi",
+       "desc": "(gebratener Reis, vegetarisch)",
+       "tags": [
+        "vegetarisch"
+       ]
+      },
+      {
+       "no": "69",
+       "name": "Yaki Meshi Chicken",
+       "desc": "(gebratener Reis mit Hühnerfleisch)"
+      },
+      {
+       "no": "70",
+       "name": "Yaki Soba",
+       "desc": "(gebratene Nudeln, vegetarisch)",
+       "tags": [
+        "vegetarisch"
+       ]
+      },
+      {
+       "no": "71",
+       "name": "Yaki Soba Chicken",
+       "desc": "(gebratene Nudeln mit Hühnerfleisch)"
+      },
+      {
+       "no": "72",
+       "name": "Miso Soup",
+       "desc": "(mit Tofu und Seetang)"
+      },
+      {
+       "no": "73",
+       "name": "Yasai Ramen",
+       "desc": "(Nudelsuppe mit Gemüse)"
+      },
+      {
+       "no": "74",
+       "name": "Tori Ramen",
+       "desc": "(Nudelsuppe mit Hühnerfleisch)"
+      },
+      {
+       "no": "75",
+       "name": "Gyuniku Ramen",
+       "desc": "(Nudelsuppe mit Rindfleisch)"
+      },
+      {
+       "no": "76",
+       "name": "Gohan",
+       "desc": "(weißer Reis)"
+      }
+     ]
+    }
+   ],
+   "source_notes": [
+    "1) mit Farbstoff, 2) mit Konservierungsstoff, 3) Aufgrund des hohen Quecksilbergehaltes kann der übermäßige Verzehr abführend wirken."
+   ]
+  },
+  {
+   "id": "warm-dishes",
+   "tab": "Warm Dishes",
+   "title": "Warm Dishes (Lunch)",
+   "subtitle": "Im All-you-can-eat-Preis enthalten.",
+   "groups": [
+    {
+     "title": "",
+     "items": [
+      {
+       "no": "79",
+       "name": "Gyoza",
+       "desc": "(Teigtaschen mit Hühnerfleisch)"
+      },
+      {
+       "no": "80",
+       "name": "Kleine Frühlingsrollen",
+       "desc": "(vegetarisch)",
+       "tags": [
+        "vegetarisch"
+       ]
+      },
+      {
+       "no": "81",
+       "name": "Gyoza Furai",
+       "desc": "(frittierte Teigtaschen mit Schweinefleisch)"
+      },
+      {
+       "no": "82",
+       "name": "Ika Tempura",
+       "desc": "(Frittierte Tintenfischringe)"
+      },
+      {
+       "no": "83",
+       "name": "Goma Teba",
+       "desc": "(Frittierte Hähnchenflügel mit Sesam)"
+      },
+      {
+       "no": "84",
+       "name": "Tori Tempura",
+       "desc": "(Frittiertes Hähnchenfilet)"
+      },
+      {
+       "no": "85",
+       "name": "Tori no Karaage",
+       "desc": "(Frittierte Hähnchen in Teriyaki Sauce)"
+      },
+      {
+       "no": "86",
+       "name": "Tonkatsu",
+       "desc": "(Paniertes Schweinefilet)"
+      },
+      {
+       "no": "87",
+       "name": "Ahiru no Karaage",
+       "desc": "(Knusprig geb. Ente)"
+      },
+      {
+       "no": "88",
+       "name": "Tempura Yasai",
+       "desc": "(Frittiertes Gemüse)"
+      },
+      {
+       "no": "89",
+       "name": "Yasai Korokke²",
+       "desc": "(jap. Gemüsekroketten)"
+      },
+      {
+       "no": "90",
+       "name": "Tako Yaki",
+       "desc": "(geb. Klößchen mit Oktopusstücken)"
+      },
+      {
+       "no": "91",
+       "name": "Fischbällchen"
+      },
+      {
+       "no": "92",
+       "name": "Chikuwa Kushi¹,²",
+       "desc": "(Frittierte Surimispieße)"
+      },
+      {
+       "no": "93",
+       "name": "Yaki Tori",
+       "desc": "(gegrillter Hähnchenspieß)"
+      },
+      {
+       "no": "94",
+       "name": "Ika Kushi",
+       "desc": "(gegrillter Tintenfischspieß)"
+      },
+      {
+       "no": "95",
+       "name": "Yaki Ika",
+       "desc": "(Tintenfisch vom Teppangrill)"
+      },
+      {
+       "no": "96",
+       "name": "Sake Teriyaki",
+       "desc": "(gegrillter Lachs in Teriyaki Sauce)"
+      },
+      {
+       "no": "97",
+       "name": "Izumidai Yaki",
+       "desc": "(Tilapia Fisch vom Teppangrill)"
+      },
+      {
+       "no": "98",
+       "name": "Saba Yaki",
+       "desc": "(Makrele vom Teppangrill)"
+      },
+      {
+       "no": "99",
+       "name": "Yaki Mushrooms",
+       "desc": "(gegrillte Champignons)"
+      },
+      {
+       "no": "100",
+       "name": "Yaki Yasai",
+       "desc": "(Gemüse vom Teppangrill)"
+      },
+      {
+       "no": "101",
+       "name": "Black Pepper Chicken",
+       "desc": "(Hühnerfleisch)"
+      },
+      {
+       "no": "102",
+       "name": "Geb. Fischfilet"
+      }
+     ]
+    }
+   ],
+   "source_notes": [
+    "1) mit Farbstoff, 2) mit Konservierungsstoff, 3) Aufgrund des hohen Quecksilbergehaltes kann der übermäßige Verzehr abführend wirken."
+   ]
+  },
+  {
+   "id": "dinner",
+   "tab": "Dinner",
+   "title": "Dinner – ab 17:00 Uhr",
+   "subtitle": "Dinner-Spezialitäten ab 17:00 Uhr – im All-you-can-eat-Preis (Dinner) enthalten.",
+   "groups": [
+    {
+     "title": "",
+     "items": [
+      {
+       "no": "150",
+       "name": "Hokkigai",
+       "desc": "(Eismeermuschel)"
+      },
+      {
+       "no": "151",
+       "name": "Hotategai",
+       "desc": "(Jakobsmuschel)"
+      },
+      {
+       "no": "152",
+       "name": "Unagi",
+       "desc": "(gegrillter Aal)"
+      },
+      {
+       "no": "153",
+       "name": "Aburi Sake Cheese",
+       "desc": "(Lachs flambiert mit Käse)"
+      },
+      {
+       "no": "154",
+       "name": "Maguro Cheese",
+       "desc": "(Thunfisch flambiert mit Käse)"
+      },
+      {
+       "no": "156",
+       "name": "Ebi Cheese",
+       "desc": "(Garnelen flambiert mit Käse)"
+      },
+      {
+       "no": "157",
+       "name": "Unagi Cheese",
+       "desc": "(Aal flambiert mit Käse)"
+      },
+      {
+       "no": "158",
+       "name": "Ebi Tempura Maki",
+       "desc": "(frittierte Garnele mit Salat)"
+      },
+      {
+       "no": "160",
+       "name": "Inside-out Sake Roll",
+       "desc": "(Lachs, Surimi & Avocado)"
+      },
+      {
+       "no": "161",
+       "name": "Inside-out Unagi Roll",
+       "desc": "(gegrillter Aal, Surimi & Avocado)"
+      },
+      {
+       "no": "162",
+       "name": "Unagi Don",
+       "desc": "(gegrillter Aal mit Reis)"
+      },
+      {
+       "no": "163",
+       "name": "Seafood Soup",
+       "desc": "(mit Meeresfrüchten)"
+      },
+      {
+       "no": "164",
+       "name": "Ramu Kushif",
+       "desc": "(gegrillter Lammspieß, scharf)",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "165",
+       "name": "Ebi Kushi",
+       "desc": "(gegrillter Garnelenspieß)"
+      },
+      {
+       "no": "166",
+       "name": "Kohitsuji",
+       "desc": "(gegrilltes Lammkotelett)"
+      },
+      {
+       "no": "167",
+       "name": "Tomato Bacon Kushi",
+       "desc": "(gegrillte Cherrytomaten im Speckmantel)"
+      },
+      {
+       "no": "168",
+       "name": "Ebi Ball",
+       "desc": "(Garnelenbällchen)"
+      },
+      {
+       "no": "169",
+       "name": "Ebi Yaki",
+       "desc": "(gegrillte Gambas)"
+      },
+      {
+       "no": "170",
+       "name": "Ebi Tempura",
+       "desc": "(Garnelen)"
+      },
+      {
+       "no": "171",
+       "name": "Ebi Chili",
+       "desc": "(Garnelen, süß-scharf)",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "172",
+       "name": "Age Kani Tsume",
+       "desc": "(panierte Krabben)"
+      },
+      {
+       "no": "173",
+       "name": "Black Pepper Kohitsuji",
+       "desc": "(gegrillte Lammkotelett mit schwarzen Pfeffer)"
+      },
+      {
+       "no": "174",
+       "name": "Gyu Hirenku",
+       "desc": "(gegrilltes Rinderfilet)"
+      },
+      {
+       "no": "175",
+       "name": "Black Pepper Gyu Hirenku",
+       "desc": "(gegrilltes Rinderfilet mit schwarzen Pfeffer)"
+      },
+      {
+       "no": "176",
+       "name": "Shiitake Yake",
+       "desc": "(gegrillter Shiitake Pilz)"
+      }
+     ]
+    }
+   ],
+   "source_notes": [
+    "1) mit Farbstoff, 2) mit Konservierungsstoff, 3) Aufgrund des hohen Quecksilbergehaltes kann der übermäßige Verzehr abführend wirken.",
+    "Artikelnummern 155 und 159 fehlen in der Vorlage (Sprung von 154 auf 156 bzw. 158 auf 160) - so im Original abgebildet, nicht ergänzt.",
+    "Bei 164 steht wörtlich \"Ramu Kushif\" (mit angehängtem f) - so im Bild geschrieben."
+   ]
+  },
+  {
+   "id": "sideorders",
+   "tab": "Side Orders",
+   "title": "Side Orders (Lunch & Dinner)",
+   "subtitle": "Lunch & Dinner · * nicht im Buffetpreis enthalten.",
+   "groups": [
+    {
+     "title": "",
+     "items": [
+      {
+       "no": "200",
+       "name": "Sake Sashimi *",
+       "desc": "(Lachs)",
+       "price": "3,-€"
+      },
+      {
+       "no": "201",
+       "name": "Mutsu Sashimi³*",
+       "desc": "(Butterfisch)",
+       "price": "3,-€"
+      },
+      {
+       "no": "202",
+       "name": "Maguro Sashimi *",
+       "desc": "(Thunfisch)",
+       "price": "4,-€"
+      },
+      {
+       "no": "203",
+       "name": "Sashimi Mix *",
+       "price": "4,-€"
+      },
+      {
+       "no": "204",
+       "name": "Hotategai Kushi *",
+       "desc": "(gegrillte Jakobsmuscheln)",
+       "price": "4,-€"
+      }
+     ]
+    }
+   ],
+   "source_notes": [
+    "1) mit Farbstoff, 2) mit Konservierungsstoff, 3) Aufgrund des hohen Quecksilbergehaltes kann der übermäßige Verzehr abführend wirken.",
+    "Preise hier weichen von der Version im Mitnehmen-Flyer ab (dort 200/201=7,00€, 202/203=8,00€, 204=5,00€ unter \"Warm Dishes\") - beide Varianten wurden 1:1 aus ihrer jeweiligen Bilddatei übernommen, nicht abgeglichen."
+   ]
+  },
+  {
+   "id": "desserts",
+   "tab": "Desserts",
+   "title": "Desserts",
+   "subtitle": "Im All-you-can-eat-Preis enthalten.",
+   "groups": [
+    {
+     "title": "",
+     "items": [
+      {
+       "no": "120",
+       "name": "Geb. Banane¹",
+       "desc": "(mit Honig)"
+      },
+      {
+       "no": "121",
+       "name": "Erdbeereis¹"
+      },
+      {
+       "no": "122",
+       "name": "Vanilleeis¹"
+      },
+      {
+       "no": "123",
+       "name": "Schokoladeneis¹"
+      },
+      {
+       "no": "124",
+       "name": "Grüntee Eis¹"
+      },
+      {
+       "no": "125",
+       "name": "Rote Bohnen-Eis¹"
+      },
+      {
+       "no": "126",
+       "name": "Schwarzer Sesam Eis¹"
+      },
+      {
+       "no": "127",
+       "name": "Obstsalat"
+      }
+     ]
+    }
+   ],
+   "source_notes": [
+    "1) mit Farbstoff, 2) mit Konservierungsstoff, 3) Aufgrund des hohen Quecksilbergehaltes kann der übermäßige Verzehr abführend wirken.",
+    "Keine Preise für Desserts in den vorliegenden Bildern oder im Mitnehmen-Flyer gefunden."
+   ]
+  },
+  {
+   "id": "saucen",
+   "tab": "Saucen & Others",
+   "title": "Saucen & Others",
+   "subtitle": "Im All-you-can-eat-Preis enthalten.",
+   "groups": [
+    {
+     "title": "",
+     "items": [
+      {
+       "no": "130",
+       "name": "Wasabi¹"
+      },
+      {
+       "no": "131",
+       "name": "Ginger²"
+      },
+      {
+       "no": "132",
+       "name": "Teriyaki Sauce"
+      },
+      {
+       "no": "133",
+       "name": "Süß-saure Sauce¹"
+      },
+      {
+       "no": "134",
+       "name": "Scharfe süß-saure Sauce¹,²",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "135",
+       "name": "BBQ Sauce"
+      },
+      {
+       "no": "136",
+       "name": "Erdnuss Sauce"
+      },
+      {
+       "no": "137",
+       "name": "Chili Sauce¹,²"
+      }
+     ]
+    }
+   ],
+   "source_notes": [
+    "1) mit Farbstoff, 2) mit Konservierungsstoff, 3) Aufgrund des hohen Quecksilbergehaltes kann der übermäßige Verzehr abführend wirken.",
+    "Text im Hauptbild (i9717a79c7f37997b.png) ist weiß auf weißem Hintergrund gerendert (nur Umrisse/i-Punkte und Umlaute sind grau sichtbar) - Inhalt wurde über Kontrastanhebung rekonstruiert und stimmt mit der Version im Mitnehmen-Flyer überein."
+   ]
+  },
+  {
+   "id": "sushi-menues",
+   "tab": "Sushi-Boxen",
+   "title": "Sushi Menüs",
+   "subtitle": "Unsere Sushi-Boxen – ideal zum Mitnehmen. Wir bieten auch All you can eat an.",
+   "groups": [
+    {
+     "title": "",
+     "items": [
+      {
+       "no": "A",
+       "name": "Box A (kleiner Nigiri Mix)",
+       "desc": "1x Sake, 1x Maguro, 1x Ama Ebi, 1x Ebi, 1x Tako",
+       "price": "7,30"
+      },
+      {
+       "no": "B",
+       "name": "Box B (Sushi Mix)",
+       "desc": "2x Sake, 2x Maguro, 2x Kani, 6x Kappa Maki",
+       "price": "10,50"
+      },
+      {
+       "no": "C",
+       "name": "Box C (Vegetarischer Mix)",
+       "desc": "3x Avocado Maki, 3x Tamago Maki, 3x Kappa Maki, 2x Tamago, 2x Inari, 1x Chuka Wakame Gunkan, 1x Mais Gunkan",
+       "price": "12,00"
+      },
+      {
+       "no": "D",
+       "name": "Box D (großer Nigiri Mix)",
+       "desc": "2x Sake, 2x Maguro, 2x Ebi, 2x Ama Ebi, 2x Tako, 2x Hokkigai, 2x Kani, 2x Tamago, 2x Inari",
+       "price": "24,00"
+      },
+      {
+       "no": "E",
+       "name": "Box E (Maki Mix)",
+       "desc": "3x Ebi Tempura Maki, 3x California Maki, 3x Inside-Out Sushi Roll, 4x Salmon Cheese Maki, 3x Kappa Maki, 3x Sake Maki, 3x Tekka Maki",
+       "price": "19,00"
+      },
+      {
+       "no": "F",
+       "name": "Box F (Nigiri Maki Mix)",
+       "desc": "3x Ebi Tempura Maki, 3x California Maki, 3x Inside-Out Sushi Roll, 3x Spicy Tuna Maki, 1x Sake, 1x Maguro, 1x Ebi, 1x Tako, 1x Kani, 1x Tamago",
+       "price": "21,00"
+      },
+      {
+       "no": "G",
+       "name": "Box G (Salmon Sashimi)",
+       "desc": "6x Salmon",
+       "price": "7,00"
+      },
+      {
+       "no": "H",
+       "name": "Box H (Maguro Sashimi)",
+       "desc": "6x Maguro",
+       "price": "8,00"
+      },
+      {
+       "no": "I",
+       "name": "Box I (Sashimi Mix)",
+       "desc": "3x Sake, 3x Maguro, 3x Hokkigai, 3x Tako, 4x Ama Ebi",
+       "price": "15,00"
+      }
+     ]
+    }
+   ],
+   "source_notes": [
+    "www.sushi-grill-keyaki.de",
+    "Wir bieten auch ALL YOU CAN EAT an."
+   ]
+  },
+  {
+   "id": "zum-mitnehmen",
+   "tab": "Zum Mitnehmen",
+   "title": "Zum Mitnehmen",
+   "subtitle": "Alle Gerichte auch zum Mitnehmen – Preise für Speisen außer Haus.",
+   "groups": [
+    {
+     "title": "Nigiri / Maki / Gunkan / Temaki",
+     "items": [
+      {
+       "no": "1",
+       "name": "Sake",
+       "desc": "(Lachs)",
+       "price": "1,80"
+      },
+      {
+       "no": "2",
+       "name": "Maguro",
+       "desc": "(Thunfisch)",
+       "price": "1,90"
+      },
+      {
+       "no": "3",
+       "name": "Ebi",
+       "desc": "(Garnelen)",
+       "price": "1,80"
+      },
+      {
+       "no": "4",
+       "name": "Ama Ebi",
+       "desc": "(Süßwassershrimps)",
+       "price": "1,80"
+      },
+      {
+       "no": "5",
+       "name": "Tako",
+       "desc": "(Oktopus)",
+       "price": "1,80"
+      },
+      {
+       "no": "6",
+       "name": "Inari",
+       "desc": "(Tofutasche)",
+       "price": "1,80"
+      },
+      {
+       "no": "7",
+       "name": "Kani",
+       "desc": "(Surimi)",
+       "price": "1,70"
+      },
+      {
+       "no": "8",
+       "name": "Tamago",
+       "desc": "(Omelette)",
+       "price": "1,70"
+      },
+      {
+       "no": "9",
+       "name": "Avocado",
+       "price": "1,60"
+      },
+      {
+       "no": "10",
+       "name": "Ika",
+       "desc": "(Tintenfisch)",
+       "price": "1,80"
+      },
+      {
+       "no": "11",
+       "name": "Ahiru",
+       "desc": "(Ente)",
+       "price": "1,80"
+      },
+      {
+       "no": "12",
+       "name": "Kinusaya",
+       "desc": "(Zuckererbsen)",
+       "price": "1,60"
+      },
+      {
+       "no": "13",
+       "name": "Saba",
+       "desc": "(Makrele)",
+       "price": "1,80"
+      },
+      {
+       "no": "14",
+       "name": "Izumidai",
+       "desc": "(Tilapia)",
+       "price": "1,80"
+      },
+      {
+       "no": "15",
+       "name": "Mutsu³",
+       "desc": "(Butterfisch)",
+       "price": "1,80"
+      },
+      {
+       "no": "16",
+       "name": "Sake Maki",
+       "desc": "(Lachs)",
+       "price": "1,80"
+      },
+      {
+       "no": "17",
+       "name": "Kappa Maki",
+       "desc": "(Gurken)",
+       "price": "1,80"
+      },
+      {
+       "no": "18",
+       "name": "Tekka Maki",
+       "desc": "(Thunfisch)",
+       "price": "1,90"
+      },
+      {
+       "no": "19",
+       "name": "Tamago Maki",
+       "desc": "(Omelette)",
+       "price": "1,80"
+      },
+      {
+       "no": "20",
+       "name": "Kani Maki¹,²",
+       "desc": "(Surimi)",
+       "price": "1,80"
+      },
+      {
+       "no": "21",
+       "name": "Avocado Maki",
+       "price": "1,80"
+      },
+      {
+       "no": "22",
+       "name": "Ebi Maki",
+       "desc": "(Garnelen)",
+       "price": "1,90"
+      },
+      {
+       "no": "23",
+       "name": "Mutsu Maki³",
+       "desc": "(Butterfisch, scharf)",
+       "price": "1,80",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "24",
+       "name": "Kapyo Maki¹,²",
+       "desc": "(Kürbis)",
+       "price": "1,80"
+      },
+      {
+       "no": "25",
+       "name": "Shinko Maki",
+       "desc": "(eingelegter Rettich)",
+       "price": "1,80"
+      },
+      {
+       "no": "26",
+       "name": "Tuna Maki",
+       "desc": "(Thunfisch gekocht, scharf)",
+       "price": "1,30",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "27",
+       "name": "Ebiko Gunkan",
+       "desc": "(Garnelenrogen)",
+       "price": "2,10"
+      },
+      {
+       "no": "28",
+       "name": "Chuka Wakame Gunkan¹,²",
+       "desc": "(Algen)",
+       "price": "2,10"
+      },
+      {
+       "no": "29",
+       "name": "Mais Gunkan",
+       "desc": "(Mais)",
+       "price": "1,80"
+      },
+      {
+       "no": "30",
+       "name": "Kani Gunkan",
+       "desc": "(Surimi)",
+       "price": "2,10"
+      },
+      {
+       "no": "31",
+       "name": "Sake Gunkan",
+       "desc": "(Lachs)",
+       "price": "2,10"
+      },
+      {
+       "no": "32",
+       "name": "Tuna Gunkan",
+       "desc": "(Thunfisch)",
+       "price": "2,30"
+      },
+      {
+       "no": "33",
+       "name": "Green Masago Gunkan",
+       "desc": "(Fischrogen)",
+       "price": "2,10"
+      },
+      {
+       "no": "34",
+       "name": "Cream Cheese Roll",
+       "desc": "(Frischkäse & Gurke)",
+       "price": "2,30"
+      },
+      {
+       "no": "35",
+       "name": "Kawa Maki",
+       "desc": "(gekochter Lachs & Avocado)",
+       "price": "1,60"
+      },
+      {
+       "no": "36",
+       "name": "Tori no Karaage Maki",
+       "desc": "(Frittiertes Huhn & Gurke)",
+       "price": "1,80"
+      },
+      {
+       "no": "37",
+       "name": "Tempura California Maki",
+       "desc": "(Avocado & Surimi)",
+       "price": "2,10"
+      },
+      {
+       "no": "38",
+       "name": "Red California Maki¹,²",
+       "desc": "(Surimi & Avocado mit Red Massago)",
+       "price": "1,80"
+      },
+      {
+       "no": "39",
+       "name": "Green California Maki¹,²",
+       "desc": "(Surimi & Avocado mit Green Massago)",
+       "price": "1,80"
+      },
+      {
+       "no": "40",
+       "name": "Spicy Tuna Maki",
+       "desc": "(Thunfisch, scharf)",
+       "price": "2,10",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "41",
+       "name": "Spicy Kawa Maki",
+       "desc": "(gekochter Lachs, scharf)",
+       "price": "1,60",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "42",
+       "name": "Banana Maki",
+       "price": "1,60"
+      },
+      {
+       "no": "43",
+       "name": "Futo Maki¹,²",
+       "desc": "(Große Mixrolle)",
+       "price": "2,10"
+      },
+      {
+       "no": "44",
+       "name": "Tempura Futo Maki¹,²",
+       "desc": "(frittierte große Mixrolle)",
+       "price": "2,30"
+      },
+      {
+       "no": "45",
+       "name": "Sake Temaki",
+       "desc": "(Lachs)",
+       "price": "4,10"
+      },
+      {
+       "no": "46",
+       "name": "Maguro Temaki",
+       "desc": "(Thunfisch)",
+       "price": "4,10"
+      },
+      {
+       "no": "47",
+       "name": "Wakame Temaki¹,²",
+       "desc": "(Algen)",
+       "price": "4,10"
+      },
+      {
+       "no": "48",
+       "name": "California Temaki¹,²",
+       "desc": "(Surimi & Avocado)",
+       "price": "4,10"
+      },
+      {
+       "no": "49",
+       "name": "Tamago Temaki",
+       "desc": "(Omelette)",
+       "price": "4,10"
+      },
+      {
+       "no": "50",
+       "name": "Ebi Temaki",
+       "desc": "(Garnelen)",
+       "price": "4,10"
+      },
+      {
+       "no": "51",
+       "name": "Mix Temaki",
+       "desc": "(Garnelen, Lachs und Thunfisch)",
+       "price": "4,50"
+      }
+     ]
+    },
+    {
+     "title": "Warm Dishes (Lunch)",
+     "items": [
+      {
+       "no": "79",
+       "name": "Gyoza",
+       "desc": "(Teigtaschen mit Hühnerfleisch)",
+       "price": "3,30"
+      },
+      {
+       "no": "80",
+       "name": "Kleine Frühlingsrollen",
+       "desc": "(vegetarisch)",
+       "price": "2,10",
+       "tags": [
+        "vegetarisch"
+       ]
+      },
+      {
+       "no": "81",
+       "name": "Gyoza Furai",
+       "desc": "(frittierte Teigtaschen mit Schweinefleisch)",
+       "price": "3,30"
+      },
+      {
+       "no": "82",
+       "name": "Ika Tempura",
+       "desc": "(Frittierte Tintenfischringe)",
+       "price": "2,80"
+      },
+      {
+       "no": "83",
+       "name": "Goma Teba",
+       "desc": "(Frittierte Hähnchenflügel mit Sesam)",
+       "price": "2,50"
+      },
+      {
+       "no": "84",
+       "name": "Tori Tempura",
+       "desc": "(Frittiertes Hähnchenfilet)",
+       "price": "3,20"
+      },
+      {
+       "no": "85",
+       "name": "Tori no Karaage",
+       "desc": "(Frittierte Hähnchen in Teriyaki Sauce)",
+       "price": "3,20"
+      },
+      {
+       "no": "86",
+       "name": "Tonkatsu",
+       "desc": "(Paniertes Schweinefilet)",
+       "price": "3,60"
+      },
+      {
+       "no": "87",
+       "name": "Ahiru no Karaage",
+       "desc": "(Knusprig geb. Ente)",
+       "price": "5,90"
+      },
+      {
+       "no": "88",
+       "name": "Tempura Yasai",
+       "desc": "(Frittiertes Gemüse)",
+       "price": "3,30"
+      },
+      {
+       "no": "89",
+       "name": "Yasai Korokke²",
+       "desc": "(jap. Gemüsekroketten)",
+       "price": "3,30"
+      },
+      {
+       "no": "90",
+       "name": "Tako Yaki",
+       "desc": "(geb. Klößchen mit Oktopusstücken)",
+       "price": "3,10"
+      },
+      {
+       "no": "91",
+       "name": "Fischbällchen",
+       "price": "3,10"
+      },
+      {
+       "no": "92",
+       "name": "Chikuwa Kushi¹,²",
+       "desc": "(Frittierte Surimispieße)",
+       "price": "1,70"
+      },
+      {
+       "no": "93",
+       "name": "Yaki Tori",
+       "desc": "(gegrillte Hähnchenspieße)",
+       "price": "3,50"
+      },
+      {
+       "no": "94",
+       "name": "Ika Kushi",
+       "desc": "(gegrillte Tintenfischspieße)",
+       "price": "3,70"
+      },
+      {
+       "no": "95",
+       "name": "Yaki Ika",
+       "desc": "(Tintenfisch vom Teppangrill)",
+       "price": "3,50"
+      },
+      {
+       "no": "96",
+       "name": "Sake Teriyaki",
+       "desc": "(gegrillter Lachs in Teriyaki Sauce)",
+       "price": "3,80"
+      },
+      {
+       "no": "97",
+       "name": "Izumidai Yaki",
+       "desc": "(Tilapia Fisch vom Teppangrill)",
+       "price": "3,80"
+      },
+      {
+       "no": "98",
+       "name": "Saba Yaki",
+       "desc": "(Makrele vom Teppangrill)",
+       "price": "3,80"
+      },
+      {
+       "no": "99",
+       "name": "Yaki Mushrooms",
+       "desc": "(gegrillte Champignons)",
+       "price": "3,10"
+      },
+      {
+       "no": "100",
+       "name": "Yaki Yasai",
+       "desc": "(Gemüse vom Teppangrill)",
+       "price": "3,10"
+      },
+      {
+       "no": "101",
+       "name": "Black Pepper Chicken",
+       "desc": "(Hühnerfleisch)",
+       "price": "3,80"
+      },
+      {
+       "no": "102",
+       "name": "Geb. Fischfilet",
+       "price": "3,80"
+      },
+      {
+       "no": "204",
+       "name": "Hotategai Kushi",
+       "desc": "(gegrillte Jakobsmuscheln) 2 Stk.",
+       "price": "5,00"
+      }
+     ]
+    },
+    {
+     "title": "Salate / Suppen / Nudeln / Reis",
+     "items": [
+      {
+       "no": "60",
+       "name": "Goma Wakame¹,²",
+       "desc": "(grüner Algensalat)",
+       "price": "2,90"
+      },
+      {
+       "no": "61",
+       "name": "Kimchi¹",
+       "desc": "(scharfer eingelegter Chinakohlsalat)",
+       "price": "2,90",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "62",
+       "name": "Kyuri Tsukemono",
+       "desc": "(eingelegter Gurkensalat)",
+       "price": "2,90"
+      },
+      {
+       "no": "63",
+       "name": "Hiya Yakko",
+       "desc": "(kalter Tofu)",
+       "price": "3,10"
+      },
+      {
+       "no": "64",
+       "name": "Edamame",
+       "desc": "(grüne junge Sojabohnen)",
+       "price": "2,90"
+      },
+      {
+       "no": "65",
+       "name": "Chuka Ika Sansai",
+       "desc": "(Tintenfisch-Algen-Salat)",
+       "price": "3,50"
+      },
+      {
+       "no": "66",
+       "name": "Kohlrabisalat",
+       "price": "2,90"
+      },
+      {
+       "no": "67",
+       "name": "Avocado-salat",
+       "price": "3,50"
+      },
+      {
+       "no": "68",
+       "name": "Yaki Meshi",
+       "desc": "(gebr. Reis, vegetarisch)",
+       "price": "4,20",
+       "tags": [
+        "vegetarisch"
+       ]
+      },
+      {
+       "no": "69",
+       "name": "Yaki Meshi Chicken",
+       "desc": "(gebr. Reis mit Hühnerfleisch)",
+       "price": "4,80"
+      },
+      {
+       "no": "70",
+       "name": "Yaki Soba",
+       "desc": "(gebr. Nudeln, vegetarisch)",
+       "price": "4,20",
+       "tags": [
+        "vegetarisch"
+       ]
+      },
+      {
+       "no": "71",
+       "name": "Yaki Soba Chicken",
+       "desc": "(gebr. Nudeln mit Hühnerfl.)",
+       "price": "4,80"
+      },
+      {
+       "no": "72",
+       "name": "Miso Soup",
+       "desc": "(mit Tofu und Seetang)",
+       "price": "2,80"
+      },
+      {
+       "no": "73",
+       "name": "Yasai Ramen",
+       "desc": "(Nudelsuppe mit Gemüse)",
+       "price": "2,80"
+      },
+      {
+       "no": "74",
+       "name": "Tori Ramen",
+       "desc": "(Nudelsuppe mit Hühnerfleisch)",
+       "price": "3,10"
+      },
+      {
+       "no": "75",
+       "name": "Gyuniku Ramen",
+       "desc": "(Nudelsuppe mit Rindfleisch)",
+       "price": "3,20"
+      },
+      {
+       "no": "76",
+       "name": "Gohan",
+       "desc": "(weißer Reis)",
+       "price": "2,50"
+      },
+      {
+       "no": "200",
+       "name": "Sake Sashimi",
+       "desc": "(Lachs)",
+       "price": "7,00"
+      },
+      {
+       "no": "201",
+       "name": "Mutsu Sashimi",
+       "desc": "(Butterfisch)",
+       "price": "7,00"
+      },
+      {
+       "no": "202",
+       "name": "Maguro Sashimi",
+       "desc": "(Thunfisch)",
+       "price": "8,00"
+      },
+      {
+       "no": "203",
+       "name": "Sashimi Mix",
+       "price": "8,00"
+      }
+     ]
+    },
+    {
+     "title": "Saucen & Others",
+     "items": [
+      {
+       "no": "130",
+       "name": "Wasabi¹"
+      },
+      {
+       "no": "131",
+       "name": "Ginger²"
+      },
+      {
+       "no": "132",
+       "name": "Teriyaki Sauce"
+      },
+      {
+       "no": "133",
+       "name": "Süß-saure Sauce¹"
+      },
+      {
+       "no": "134",
+       "name": "Scharfe süß-saure Sauce¹,²",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "135",
+       "name": "BBQ Sauce"
+      },
+      {
+       "no": "136",
+       "name": "Erdnuss Sauce"
+      },
+      {
+       "no": "137",
+       "name": "Chili Sauce¹,²"
+      }
+     ]
+    },
+    {
+     "title": "Dinner (ab 17:00 Uhr)",
+     "items": [
+      {
+       "no": "150",
+       "name": "Hokkigai",
+       "desc": "(Eismeermuschel)",
+       "price": "2,30"
+      },
+      {
+       "no": "151",
+       "name": "Hotategai",
+       "desc": "(Jakobsmuschel)",
+       "price": "2,30"
+      },
+      {
+       "no": "152",
+       "name": "Unagi",
+       "desc": "(gegrillter Aal)",
+       "price": "2,30"
+      },
+      {
+       "no": "153",
+       "name": "Aburi Sake Cheese",
+       "desc": "(Lachs flambiert mit Käse)",
+       "price": "2,30"
+      },
+      {
+       "no": "154",
+       "name": "Maguro Cheese",
+       "desc": "(Thunfisch flambiert mit Käse)",
+       "price": "2,50"
+      },
+      {
+       "no": "156",
+       "name": "Ebi Cheese",
+       "desc": "(Garnelen flambiert mit Käse)",
+       "price": "2,50"
+      },
+      {
+       "no": "157",
+       "name": "Unagi Cheese",
+       "desc": "(Aal flambiert mit Käse)",
+       "price": "2,50"
+      },
+      {
+       "no": "158",
+       "name": "Ebi Tempura Maki",
+       "desc": "(frittierte Garnele mit Salat)",
+       "price": "2,20"
+      },
+      {
+       "no": "160",
+       "name": "Inside-out Sake Roll",
+       "desc": "(Lachs, Surimi & Avocado)",
+       "price": "2,70"
+      },
+      {
+       "no": "161",
+       "name": "Inside-out Unagi Roll",
+       "desc": "(gegrillter Aal, Surimi & Avocado)",
+       "price": "3,10"
+      },
+      {
+       "no": "162",
+       "name": "Unagi Don",
+       "desc": "(gegrillter Aal mit Reis)",
+       "price": "4,80"
+      },
+      {
+       "no": "163",
+       "name": "Seafood Soup",
+       "desc": "(mit Meeresfrüchten)",
+       "price": "4,50"
+      },
+      {
+       "no": "164",
+       "name": "Ramu Kushi",
+       "desc": "(gegrillter Lammspieß, scharf)",
+       "price": "3,10",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "165",
+       "name": "Ebi Kushi",
+       "desc": "(gegrillter Garnelenspieß)",
+       "price": "4,10"
+      },
+      {
+       "no": "166",
+       "name": "Kohitsuji",
+       "desc": "(gegrilltes Lammkotelett)",
+       "price": "4,90"
+      },
+      {
+       "no": "167",
+       "name": "Tomato Bacon Kushi",
+       "desc": "(gegrillte Cherrytomaten im Speckmantel)",
+       "price": "3,10"
+      },
+      {
+       "no": "168",
+       "name": "Ebi Ball",
+       "desc": "(Garnelenbällchen)",
+       "price": "3,50"
+      },
+      {
+       "no": "169",
+       "name": "Ebi Yaki",
+       "desc": "(gegrillte Gambas)",
+       "price": "3,50"
+      },
+      {
+       "no": "170",
+       "name": "Ebi Tempura",
+       "desc": "(Garnelen)",
+       "price": "3,50"
+      },
+      {
+       "no": "171",
+       "name": "Ebi Chili",
+       "desc": "(Garnelen, süß-scharf)",
+       "price": "4,80",
+       "tags": [
+        "scharf"
+       ]
+      },
+      {
+       "no": "172",
+       "name": "Age Kani Tsume",
+       "desc": "(panierte Krabben)",
+       "price": "1,90"
+      },
+      {
+       "no": "173",
+       "name": "Black Pepper Kohitsuji",
+       "desc": "(Lammkotelett mit schwarzen Pfeffer)",
+       "price": "4,90"
+      },
+      {
+       "no": "174",
+       "name": "Gyu Hirenku",
+       "desc": "(gegrilltes Rinderfilet)",
+       "price": "4,00"
+      },
+      {
+       "no": "175",
+       "name": "Black Pepper Gyu Hirenku",
+       "desc": "(gegrilltes Rinderfilet mit schwarzen Pfeffer)",
+       "price": "4,00"
+      },
+      {
+       "no": "176",
+       "name": "Shiitake Yake",
+       "desc": "(gegrillter Shiitake Pilz)",
+       "price": "4,20"
+      }
+     ]
+    },
+    {
+     "title": "Sushi Menüs",
+     "items": [
+      {
+       "no": "A",
+       "name": "Box A (kleiner Nigiri Mix)",
+       "desc": "1x Sake, 1x Maguro, 1x Ama Ebi, 1x Ebi, 1x Tako",
+       "price": "7,30"
+      },
+      {
+       "no": "B",
+       "name": "Box B (Sushi Mix)",
+       "desc": "2x Sake, 2x Maguro, 2x Kani, 6x Kappa Maki",
+       "price": "10,50"
+      },
+      {
+       "no": "C",
+       "name": "Box C (Vegetarischer Mix)",
+       "desc": "3x Avocado Maki, 3x Tamago Maki, 3x Kappa Maki, 2x Tamago, 2x Inari, 1x Chuka Wakame Gunkan, 1x Mais Gunkan",
+       "price": "12,00"
+      },
+      {
+       "no": "D",
+       "name": "Box D (großer Nigiri Mix)",
+       "desc": "2x Sake, 2x Maguro, 2x Ebi, 2x Ama Ebi, 2x Tako, 2x Hokkigai, 2x Kani, 2x Tamago, 2x Inari",
+       "price": "24,00"
+      },
+      {
+       "no": "E",
+       "name": "Box E (Maki Mix)",
+       "desc": "3x Ebi Tempura Maki, 3x California Maki, 3x Inside-Out Sushi Roll, 4x Salmon Cheese Maki, 3x Kappa Maki, 3x Sake Maki, 3x Tekka Maki",
+       "price": "19,00"
+      },
+      {
+       "no": "F",
+       "name": "Box F (Nigiri Maki Mix)",
+       "desc": "3x Ebi Tempura Maki, 3x California Maki, 3x Inside-Out Sushi Roll, 3x Spicy Tuna Maki, 1x Sake, 1x Maguro, 1x Ebi, 1x Tako, 1x Kani, 1x Tamago",
+       "price": "21,00"
+      },
+      {
+       "no": "G",
+       "name": "Box G (Salmon Sashimi)",
+       "desc": "6x Salmon",
+       "price": "7,00"
+      },
+      {
+       "no": "H",
+       "name": "Box H (Maguro Sashimi)",
+       "desc": "6x Maguro",
+       "price": "8,00"
+      },
+      {
+       "no": "I",
+       "name": "Box I (Sashimi Mix)",
+       "desc": "3x Sake, 3x Maguro, 3x Hokkigai, 3x Tako, 4x Ama Ebi",
+       "price": "15,00"
+      }
+     ]
+    }
+   ],
+   "source_notes": [
+    "1) mit Farbstoff, 2) mit Konservierungsstoff, 3) Aufgrund des hohen Quecksilbergehaltes kann der übermäßige Verzehr abführend wirken.",
+    "www.sushi-grill-keyaki.de",
+    "Wir bieten auch ALL YOU CAN EAT an.",
+    "Artikelnummern 155 und 159 fehlen (wie im Dinner-Bild).",
+    "Einige Artikel (z.B. 33 Green Masago Gunkan, 34 Cream Cheese Roll, 164 Ramu Kushi, 201 Mutsu Sashimi) tragen hier andere/keine Zusatzstoff-Hochzahlen bzw. andere Preise als in den jeweiligen All-you-can-eat-/Sideorders-Bildern - jeweils exakt wie in dieser Bilddatei übernommen, nicht abgeglichen."
+   ]
+  }
+ ]
+}

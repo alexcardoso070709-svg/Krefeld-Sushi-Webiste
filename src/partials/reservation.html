@@ -1,0 +1,51 @@
+<section class="section" id="reservieren">
+  <div class="container">
+    <div class="reservation-grid">
+      <div class="reservation-block reveal" style="background-image:url('{{img:res-bg}}')">
+        <div class="text-center">
+          <span class="pretitle">予約する</span>
+          <h2>Tisch reservieren!</h2>
+        </div>
+        <form class="reservation-form" data-request="reservation" style="margin-top:30px;position:relative;z-index:1">
+          <div class="form-grid">
+            <input class="field" type="text" name="name" placeholder="Ihr Name" required autocomplete="name" aria-label="Ihr Name">
+            <input class="field" type="tel" name="phone" placeholder="Telefonnummer" required autocomplete="tel" aria-label="Telefonnummer">
+          </div>
+          <div class="form-grid-3">
+            <input class="field" type="date" name="date" required aria-label="Datum">
+            <select class="field" name="time" required aria-label="Uhrzeit">
+              <option value="">Uhrzeit</option>
+              <optgroup label="Lunch">
+                <option>12:00</option><option>12:30</option><option>13:00</option><option>13:30</option><option>14:00</option><option>14:30</option>
+              </optgroup>
+              <optgroup label="Dinner">
+                <option>17:00</option><option>17:30</option><option>18:00</option><option>18:30</option><option>19:00</option><option>19:30</option><option>20:00</option><option>20:30</option><option>21:00</option><option>21:30</option><option>22:00</option>
+              </optgroup>
+            </select>
+            <select class="field" name="persons" required aria-label="Personen">
+              <option value="">Personen</option>
+              <option>1 Person</option><option>2 Personen</option><option>3 Personen</option><option>4 Personen</option><option>5 Personen</option><option>6 Personen</option><option>7 Personen</option><option>8 Personen</option><option>9 Personen</option><option>10+ Personen</option>
+            </select>
+          </div>
+          <input class="field" type="text" name="message" placeholder="Anmerkung (z. B. Kinder, Kinderstuhl, Anlass)" aria-label="Anmerkung">
+          <div class="form-actions">
+            <button type="submit" class="btn">Reservierung anfragen</button>
+            <button type="button" class="btn btn-outline-white" data-send="whatsapp">Per WhatsApp</button>
+            <button type="button" class="btn btn-outline-white" data-send="mail">Per E-Mail</button>
+          </div>
+          <p class="form-status" aria-live="polite"></p>
+          <p class="form-note">Montags Ruhetag. Reservierungen bestätigen wir telefonisch – am schnellsten erreichen Sie uns unter <a href="tel:+4921519756668" style="color:#fff">02151 - 9756668</a>.</p>
+        </form>
+        <div class="reservation-plate" aria-hidden="true"></div>
+      </div>
+      <div class="reservation-info reveal delay-2">
+        <div class="reservation-info-img"><img src="{{img:res-side}}" alt="Frisch zubereitetes Sushi" loading="lazy"></div>
+        <h4>Besuchen Sie uns</h4>
+        <p>Marktstr. 249, 47798 Krefeld<br><a href="tel:+4921519756668">Tel.: 02151 - 9756668</a></p>
+        <h4>Öffnungszeiten</h4>
+        <p>Dienstag – Sonntag<br>Lunch: 12:00 – 15:00 Uhr<br>Dinner: 17:00 – 22:30 Uhr<br>Montag Ruhetag</p>
+        <div class="social-inline"><a href="https://www.facebook.com/Sushi-Grill-Keyaki-1056027411137611/?fref=ts" target="_blank" rel="noopener">Facebook</a><a href="https://www.google.com/maps/search/?api=1&amp;query=Restaurant+Keyaki+Marktstr.+249+47798+Krefeld" target="_blank" rel="noopener">Route</a><a href="tel:+4921519756668">Anrufen</a></div>
+      </div>
+    </div>
+  </div>
+</section>
