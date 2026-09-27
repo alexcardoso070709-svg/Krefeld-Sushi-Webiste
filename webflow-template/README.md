@@ -62,6 +62,11 @@ Done via the Webflow Data API / MCP:
 - Native forms: Reservation Form, Contact Form, Newsletter Form with success/error states.
 - Mobile menu: IX3 click interaction on `.menu-button` toggling `.nav-menu.is-open`
   (component-scoped to Header). Active nav link style lives in a small embed in the Header.
+- Interactions (IX3, site-wide): hover on post cards, dish items, category cards and gallery
+  items (scoped to the hovered element); scroll fade-up reveal on post, quote, category and dish
+  cards (skipped for prefers-reduced-motion).
+- SEO: static page titles/descriptions, dynamic titles/descriptions on all CMS templates,
+  shared Open Graph image.
 - Rich-text styling for journal posts via an embed on the post template (`.rich-text h2/h3/blockquote`).
 
 `tools/wf_chunks.py`, `tools/wf_actions.py` and `tools/wf_before.py` turn the static prototype into
@@ -71,9 +76,8 @@ WHTML build actions; `data/webflow_site.json` and `data/webflow_assets.json` hol
 
 1. Menu category template: add a Dishes collection list filtered by
    "Category = Current Menu Category" (the API does not accept current-item filters).
-2. Optional: scroll-reveal and hover interactions from `css/interactions.css`.
-3. Utility pages (404, password) are Webflow defaults – restyle in the Designer if wanted.
-4. Marketplace submission needs a Webflow creator account; the "Made in Webflow" badge
+2. Utility pages (404, password) are Webflow defaults – restyle in the Designer if wanted.
+3. Marketplace submission needs a Webflow creator account; the "Made in Webflow" badge
    disappears on a paid site plan.
 
 ## Images
