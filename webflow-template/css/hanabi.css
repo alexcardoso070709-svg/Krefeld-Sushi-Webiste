@@ -181,14 +181,14 @@ a { color: inherit; text-decoration: none; }
 .stars { color: #d4502a; font-size: 18px; letter-spacing: 0.2em; }
 .quote-text { font-family: "Instrument Serif", serif; font-size: 27px; line-height: 1.25; color: #141613; margin: 0; }
 .quote-author { display: flex; align-items: center; grid-column-gap: 14px; }
-.avatar { width: 48px; height: 48px; border-radius: 999px; overflow: hidden; flex: none; background-color: #e8e1d5; }
+.avatar { width: 48px; height: 48px; border-radius: 999px; flex: none; background-color: #e8e1d5; display: flex; align-items: center; justify-content: center; font-family: "Instrument Serif", serif; font-size: 20px; color: #141613; }
 .author-name { font-weight: 700; color: #141613; font-size: 15px; }
 
 /* ---------- Gallery ---------- */
 .gallery-strip { display: grid; grid-template-columns: 1fr 1.4fr 1fr 1.4fr; grid-column-gap: 16px; height: 420px; }
 .gallery-cell { border-radius: 24px; overflow: hidden; }
 .gallery-cell.is-offset { margin-top: 64px; }
-.gallery-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-auto-rows: 300px; grid-column-gap: 16px; grid-row-gap: 16px; }
+.gallery-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-auto-rows: 300px; grid-column-gap: 16px; grid-row-gap: 16px; grid-auto-flow: dense; }
 .gallery-grid-item { border-radius: 24px; overflow: hidden; display: block; }
 .gallery-grid-item.is-tall { grid-row: span 2; }
 .gallery-grid-item.is-wide { grid-column: span 2; }
@@ -389,3 +389,9 @@ a { color: inherit; text-decoration: none; }
 .self-start { align-self: flex-start; }
 .post-image-wrap.is-large { height: 480px; }
 .sg-dark-panel { background-color: #141613; border-radius: 28px; padding: 40px; }
+.post-card.is-featured { display: grid; grid-template-columns: 1.1fr 0.9fr; grid-column-gap: 64px; align-items: center; }
+@media screen and (max-width: 991px) {
+  .post-card.is-featured { grid-template-columns: 1fr; grid-row-gap: 28px; }
+}
+.post-title.is-large { font-size: 56px; line-height: 1.02; }
+@media screen and (max-width: 767px) { .post-title.is-large { font-size: 38px; } }

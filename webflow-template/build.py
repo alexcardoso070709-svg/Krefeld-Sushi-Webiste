@@ -64,9 +64,9 @@ def categories():
     return '<div class="grid-3">' + "".join(out) + "</div>"
 
 
-def posts():
+def posts(skip=0):
     out = []
-    for p in DATA["posts"]:
+    for p in DATA["posts"][skip:]:
         out.append(f'<a href="post.html" class="post-card"><div class="post-image-wrap">'
                    f'<img class="zoom-image" src="{img(p["img"])}" alt="{esc(p["title"])}" loading="lazy"></div>'
                    f'<div class="post-meta"><span>{esc(p["cat"])}</span><span class="meta-dot"></span><span>{esc(p["date"])}</span></div>'
@@ -94,7 +94,7 @@ def expand(text, meta):
     text = re.sub(r"\{\{cur:(\w+)\}\}", lambda m: " w--current" if meta.get("nav") == m.group(1) else "", text)
     text = re.sub(r"\{\{dishes:(\w+)\}\}", lambda m: dishes(m.group(1)), text)
     text = text.replace("{{featured}}", featured()).replace("{{categories}}", categories())
-    text = text.replace("{{posts}}", posts()).replace("{{menu_tabs}}", menu_tabs())
+    text = text.replace("{{posts_rest}}", posts(1)).replace("{{posts}}", posts()).replace("{{menu_tabs}}", menu_tabs())
     return text.replace("{{title}}", esc(meta.get("title"))).replace("{{desc}}", esc(meta.get("desc")))
 
 
