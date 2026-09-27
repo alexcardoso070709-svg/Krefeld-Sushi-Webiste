@@ -724,3 +724,4 @@ select.field-dark { background-image: url("data:image/svg+xml,%3Csvg xmlns='http
 .showcase-img .slider-track img { width: 100%; height: 100%; object-fit: cover; }
 .reservation-block .pretitle { color: var(--white); }
 @media (max-width: 767px) { .location-link { text-align: left; } }
+[data-tabs], section[id] { scroll-margin-top: 90px; }

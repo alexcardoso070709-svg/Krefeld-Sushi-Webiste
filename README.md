@@ -53,13 +53,18 @@ EMAIL: ""       // z. B. "info@sushi-grill-keyaki.de" – leer = Button ausgeble
 
 Ohne WhatsApp/E-Mail bittet das Formular um einen Anruf und öffnet die Telefonwahl.
 
-## Offene Punkte vor dem Livegang
+## Übernommene Stammdaten (alte Website)
 
-- **Impressum:** Die alte Seite nennt weder Inhaber noch Rechtsform oder Steuernummer („Steuernummer: folgt“). § 5 DDG verlangt den Namen der verantwortlichen Person – bitte ergänzen.
-- **E-Mail / WhatsApp:** auf der alten Seite nicht vorhanden – bei Bedarf in `CONFIG` eintragen.
-- **Dinner-Beginn:** Die alte Seite nennt sowohl 17:00 als auch 17:30 Uhr. Die neue Seite verwendet 17:00 Uhr.
-- **Side Orders 200–204:** Die Preise der AYCE-Sideorder-Liste (3 € / 4 €) weichen vom Mitnehmen-Flyer (5–8 €) ab. Beide wurden wie auf der alten Seite übernommen.
-- **Fotos:** Food-Fotos sind Stockfotos von Pexels (freie Lizenz, siehe `assets/images/stock/CREDITS.md`), die Innenraumfotos sind Originale. Echte Gerichtfotos lassen sich über `data/images.json` austauschen.
+- Inhaber: David Löwner (aus der Datenschutzerklärung der alten Seite)
+- E-Mail: david.loewnerxu8@gmail.com (ebenda) – genutzt für Impressum, Datenschutz und den E-Mail-Button des Formulars
+- Dinner-Beginn: 17:00 Uhr (Mehrheit der Angaben der alten Seite; dort teils 17:30 Uhr)
+- Side Orders 200–204: AYCE-Liste 3 € / 4 €, Mitnehmen-Flyer 5–8 € – beide wie auf der alten Seite
+
+## Livegang
+
+- `build.py` → `SITE` enthält die Live-Domain (Canonical, Sitemap, Social-Vorschau).
+- Sicherheits-Header und 404-Seite: `_headers` (Netlify/Cloudflare Pages) bzw. `.htaccess` (Apache-Webspace).
+- `sitemap.xml` und `robots.txt` werden beim Build erzeugt.
 
 ## Technik
 

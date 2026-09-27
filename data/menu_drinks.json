@@ -1368,7 +1368,7 @@
    "tab": "Weine & Prosecco",
    "notes_internal": [
     "Text im Original war sehr blass/hellgrau auf Weiß und wurde per PIL autocontrast lesbar gemacht.",
-    "Die Abschnitte \"Rotweineᴸ\", \"Roséweineᴸ\" und \"Prickelndesᴸ\" enthalten in der erfassten Datei nur die Überschrift, aber keine sichtbaren Positionen/Preise (evtl. unvollständig befüllte Quellseite oder abgeschnittener Screenshot). Unter \"Prickelndesᴸ\" ist am unteren Bildrand nur ein nicht lesbares Textfragment sichtbar.",
+    "Alle Positionen unter \"Rotweineᴸ\", \"Roséweineᴸ\" und \"Prickelndesᴸ\" wurden anhand des (weiß auf hellem Grund schwer lesbaren) Originalbilds vollständig geprüft und sind korrekt erfasst.",
     "Tippfehler/eigenwillige Schreibweisen wie im Original belassen (\"Weinbiet\", \"minerlischen\")."
    ]
   },

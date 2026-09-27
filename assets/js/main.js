@@ -9,7 +9,7 @@
     PHONE: "+4921519756668",
     PHONE_LABEL: "02151 - 9756668",
     WHATSAPP: "",
-    EMAIL: ""
+    EMAIL: "david.loewnerxu8@gmail.com"
   };
 
   var body = document.body;

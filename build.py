@@ -22,6 +22,8 @@ ROOT = Path(__file__).parent
 SRC = ROOT / "src"
 DATA = ROOT / "data"
 
+SITE = "https://www.sushi-grill-keyaki.de"  # Live-Domain (Canonical, Sitemap, Social-Vorschau)
+
 R = "assets/images/restaurant/"
 S = "assets/images/stock/"
 
@@ -177,6 +179,8 @@ def expand(text, meta, depth=0):
     text = re.sub(r"\{\{render:([\w-]+)\}\}", lambda m: RENDER[m.group(1)](), text)
     text = re.sub(r"\{\{img:([\w-]+)\}\}", lambda m: IMG[m.group(1)], text)
     text = re.sub(r"\{\{active:(\w+)\}\}", lambda m: " is-active" if meta.get("active") == m.group(1) else "", text)
+    text = text.replace("{{site}}", SITE)
+    text = text.replace("{{canonical}}", "" if meta.get("slug") == "index" else meta.get("slug", "") + ".html")
     for k in ("title", "desc", "slug"):
         text = text.replace("{{" + k + "}}", esc(meta.get(k, "")))
     return text
@@ -195,6 +199,11 @@ def build():
             raise SystemExit(f"{page.name}: unaufgelöste Platzhalter {missing}")
         (ROOT / page.name).write_text(out, encoding="utf-8")
         print("✓", page.name)
+    pages = [p.stem for p in sorted((SRC / "pages").glob("*.html")) if p.stem != "404"]
+    urls = "".join(f"  <url><loc>{SITE}/{'' if p == 'index' else p + '.html'}</loc></url>\n" for p in pages)
+    (ROOT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{urls}</urlset>\n', encoding="utf-8")
+    (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
+    print("✓ sitemap.xml, robots.txt")
 
 
 if __name__ == "__main__":

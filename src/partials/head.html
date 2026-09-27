@@ -8,9 +8,14 @@
   <meta property="og:title" content="{{title}}">
   <meta property="og:description" content="{{desc}}">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="{{img:og}}">
+  <meta property="og:image" content="{{site}}/{{img:og}}">
+  <meta property="og:url" content="{{site}}/{{canonical}}">
+  <meta property="og:locale" content="de_DE">
+  <link rel="canonical" href="{{site}}/{{canonical}}">
   <meta name="theme-color" content="#101010">
   <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
   <link rel="preload" href="assets/fonts/cinzel-latin-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/lora-latin-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/css/fonts.css">
@@ -20,6 +25,10 @@
     "@context": "https://schema.org",
     "@type": "Restaurant",
     "name": "Restaurant Keyaki | Sushi & Grill",
+    "url": "{{site}}/",
+    "image": "{{site}}/{{img:og}}",
+    "email": "david.loewnerxu8@gmail.com",
+    "menu": "{{site}}/speisekarte.html",
     "servesCuisine": ["Japanisch", "Sushi", "All you can eat"],
     "telephone": "+49 2151 9756668",
     "faxNumber": "+49 2151 9756669",
