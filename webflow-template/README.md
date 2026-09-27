@@ -62,9 +62,18 @@ Done via the Webflow Data API / MCP:
 - Native forms: Reservation Form, Contact Form, Newsletter Form with success/error states.
 - Mobile menu: IX3 click interaction on `.menu-button` toggling `.nav-menu.is-open`
   (component-scoped to Header). Active nav link style lives in a small embed in the Header.
-- Interactions (IX3, site-wide): hover on post cards, dish items, category cards and gallery
-  items (scoped to the hovered element); scroll fade-up reveal on post, quote, category and dish
-  cards (skipped for prefers-reduced-motion).
+- Interactions (IX3):
+  - page load: staggered hero intro on Home (image zoom, heading, lead, buttons, stats, kanji, badge
+    pop); page-header intro on every other page (heading, lead, header image, menu tabs);
+  - scroll reveals (fade-up) on headings, eyebrows, statements, steps, FAQ, menu category heads,
+    cards, gallery tiles and info cards;
+  - parallax scrub on hero, story, omakase, page-header, post and gallery-strip images and on the
+    footer wordmark;
+  - hover: cards (image zoom, title colour), button arrow nudge, mobile menu toggle;
+  - everything respects prefers-reduced-motion.
+- CSS motion (embeds): endless ticker marquee (pauses on hover), floating hero kanji/badge,
+  scroll progress bar under the header (scroll-driven animation, hidden where unsupported),
+  animated nav underline, menu icon to X, dish thumbnail zoom, card/button lift, smooth anchor scroll.
 - SEO: static page titles/descriptions, dynamic titles/descriptions on all CMS templates,
   shared Open Graph image.
 - Rich-text styling for journal posts via an embed on the post template (`.rich-text h2/h3/blockquote`).
