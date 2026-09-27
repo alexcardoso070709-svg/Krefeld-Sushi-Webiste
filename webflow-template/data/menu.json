@@ -1,0 +1,37 @@
+{
+  "categories": [
+    {"id": "sushi", "name": "Sushi & Sashimi", "jp": "寿司", "desc": "Hand-pressed nigiri, rolls and sashimi, cut to order.", "image": "cat-sushi"},
+    {"id": "robata", "name": "Robata Grill", "jp": "炉端", "desc": "Skewers, fish and vegetables over white binchotan charcoal.", "image": "cat-robata"},
+    {"id": "bowls", "name": "Bowls & Noodles", "jp": "丼", "desc": "Donburi, ramen and cold soba for the full-meal crowd.", "image": "cat-bowls"},
+    {"id": "sweets", "name": "Sweets & Sake", "jp": "甘味", "desc": "Small desserts and a short list of sake and highballs.", "image": "cat-sweets"}
+  ],
+  "dishes": [
+    {"cat": "sushi", "name": "Salmon Nigiri", "jp": "サーモン", "price": "8", "desc": "Two pieces, lightly torched belly, yuzu salt.", "img": "d-nigiri", "tags": ["Chef's pick"], "featured": true},
+    {"cat": "sushi", "name": "Bluefin Akami", "jp": "赤身", "price": "12", "desc": "Lean tuna, soy-cured for 20 minutes, fresh wasabi.", "img": "d-tuna", "tags": []},
+    {"cat": "sushi", "name": "Dragon Roll", "jp": "ドラゴン", "price": "16", "desc": "Tempura prawn, avocado, grilled eel, sweet tare.", "img": "d-roll", "tags": [], "featured": true},
+    {"cat": "sushi", "name": "Spicy Tuna Maki", "jp": "スパイシー", "price": "13", "desc": "Chopped tuna, chili mayo, cucumber, crispy shallot.", "img": "d-maki", "tags": ["Spicy"]},
+    {"cat": "sushi", "name": "Sashimi Moriawase", "jp": "刺身盛り", "price": "34", "desc": "Chef's selection of 15 slices, daily catch.", "img": "d-sashimi", "tags": ["Chef's pick"], "featured": true},
+    {"cat": "sushi", "name": "Garden Roll", "jp": "野菜巻き", "price": "11", "desc": "Pickled daikon, asparagus, shiso, sesame.", "img": "d-veg", "tags": ["Vegan"]},
+    {"cat": "robata", "name": "Chicken Tsukune", "jp": "つくね", "price": "9", "desc": "Chicken meatball skewer, tare glaze, egg yolk dip.", "img": "d-skewer", "tags": [], "featured": true},
+    {"cat": "robata", "name": "Black Cod Miso", "jp": "銀鱈", "price": "28", "desc": "Three-day saikyo miso marinade, pickled ginger.", "img": "d-fish", "tags": ["Chef's pick"], "featured": true},
+    {"cat": "robata", "name": "Wagyu Kushiyaki", "jp": "和牛串", "price": "22", "desc": "A5 wagyu skewers, wasabi salt, charred leek.", "img": "d-wagyu", "tags": []},
+    {"cat": "robata", "name": "Shishito Peppers", "jp": "ししとう", "price": "7", "desc": "Blistered on the grill, bonito flakes, lemon.", "img": "d-pepper", "tags": ["Vegetarian"]},
+    {"cat": "robata", "name": "Gyoza", "jp": "餃子", "price": "10", "desc": "Pan-seared pork dumplings, chili-vinegar dip.", "img": "d-gyoza", "tags": []},
+    {"cat": "robata", "name": "Corn & Butter Soy", "jp": "とうもろこし", "price": "7", "desc": "Sweet corn from the grill, brown butter, soy.", "img": "d-corn", "tags": ["Vegetarian"]},
+    {"cat": "bowls", "name": "Tonkotsu Ramen", "jp": "豚骨", "price": "18", "desc": "18-hour pork broth, chashu, ajitama egg, nori.", "img": "d-ramen", "tags": [], "featured": true},
+    {"cat": "bowls", "name": "Chirashi Don", "jp": "ちらし丼", "price": "26", "desc": "Sushi rice topped with sashimi cuts and ikura.", "img": "d-chirashi", "tags": ["Chef's pick"]},
+    {"cat": "bowls", "name": "Spicy Miso Ramen", "jp": "辛味噌", "price": "18", "desc": "Chicken broth, red miso, ground pork, bean sprouts.", "img": "d-ramen2", "tags": ["Spicy"]},
+    {"cat": "bowls", "name": "Cold Zaru Soba", "jp": "ざるそば", "price": "15", "desc": "Buckwheat noodles on ice, tsuyu dip, scallion.", "img": "d-soba", "tags": ["Vegan"]},
+    {"cat": "bowls", "name": "Tempura Udon", "jp": "天ぷらうどん", "price": "17", "desc": "Thick udon in dashi, prawn and vegetable tempura.", "img": "d-tempura", "tags": []},
+    {"cat": "bowls", "name": "Edamame", "jp": "枝豆", "price": "6", "desc": "Steamed soybeans, flaky sea salt.", "img": "d-edamame", "tags": ["Vegan"]},
+    {"cat": "sweets", "name": "Matcha Tiramisu", "jp": "抹茶", "price": "9", "desc": "Mascarpone, ceremonial matcha, black sesame crumble.", "img": "d-matcha", "tags": [], "featured": true},
+    {"cat": "sweets", "name": "Mochi Trio", "jp": "餅", "price": "8", "desc": "Yuzu, black sesame and strawberry daifuku.", "img": "d-mochi", "tags": ["Vegetarian"]},
+    {"cat": "sweets", "name": "Junmai Ginjo Sake", "jp": "吟醸", "price": "12", "desc": "Glass, 120 ml. Clean, melon notes, served chilled.", "img": "d-sake", "tags": []},
+    {"cat": "sweets", "name": "Yuzu Highball", "jp": "ハイボール", "price": "11", "desc": "Japanese whisky, yuzu, soda over hand-cut ice.", "img": "d-highball", "tags": []}
+  ],
+  "posts": [
+    {"slug": "why-we-cook-over-binchotan", "title": "Why we cook over binchotan charcoal", "cat": "Kitchen", "date": "Mar 12, 2026", "img": "p-grill", "summary": "White oak charcoal burns hot, clean and almost smokeless — here is what it does to a skewer."},
+    {"slug": "a-morning-at-the-fish-market", "title": "A morning at the fish market with our head chef", "cat": "Sourcing", "date": "Feb 27, 2026", "img": "p-market", "summary": "4:30 am, rubber boots and a notebook: how the daily omakase is decided."},
+    {"slug": "sake-pairing-for-beginners", "title": "Sake pairing for beginners", "cat": "Drinks", "date": "Feb 03, 2026", "img": "p-sake", "summary": "Three simple rules to match sake with raw fish, grilled meat and dessert."}
+  ]
+}

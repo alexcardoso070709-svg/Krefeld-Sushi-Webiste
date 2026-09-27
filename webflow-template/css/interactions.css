@@ -1,0 +1,8 @@
+/* Parent-hover effects. In Webflow these are built as Interactions (Mouse hover on card -> animate child),
+   because Webflow classes cannot target descendants. Kept here for the static preview only. */
+.category-card:hover .category-image { transform: scale(1.05); }
+.category-card:hover .circle-arrow { background-color: #d4502a; border-color: #d4502a; color: #fffdf9; }
+.dish-item:hover .dish-name { color: #d4502a; }
+.gallery-grid-item:hover .zoom-image { transform: scale(1.06); }
+.post-card:hover .zoom-image { transform: scale(1.06); }
+.post-card:hover .post-title { color: #d4502a; }
