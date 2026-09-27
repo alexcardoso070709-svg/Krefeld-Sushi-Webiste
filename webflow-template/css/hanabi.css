@@ -43,12 +43,12 @@ a { color: inherit; text-decoration: none; }
 .center-x { margin-left: auto; margin-right: auto; }
 
 /* ---------- Typography ---------- */
-.h1, .h2, .h3, .h4, .h5 { font-family: "Instrument Serif", serif; font-weight: 400; color: #141613; margin-top: 0; margin-bottom: 0; letter-spacing: -0.02em; }
-.h1 { font-size: 104px; line-height: 0.95; }
-.h2 { font-size: 68px; line-height: 1.0; }
-.h3 { font-size: 40px; line-height: 1.08; }
-.h4 { font-size: 28px; line-height: 1.15; }
-.h5 { font-size: 22px; line-height: 1.25; }
+.heading-xl, .heading-l, .heading-m, .heading-s, .heading-xs { font-family: "Instrument Serif", serif; font-weight: 400; color: #141613; margin-top: 0; margin-bottom: 0; letter-spacing: -0.02em; }
+.heading-xl { font-size: 104px; line-height: 0.95; }
+.heading-l { font-size: 68px; line-height: 1.0; }
+.heading-m { font-size: 40px; line-height: 1.08; }
+.heading-s { font-size: 28px; line-height: 1.15; }
+.heading-xs { font-size: 22px; line-height: 1.25; }
 .h-italic { font-style: italic; color: #d4502a; }
 .on-dark { color: #f2ede4; }
 .on-ember { color: #fff4ec; }
@@ -94,9 +94,11 @@ a { color: inherit; text-decoration: none; }
 .text-link.on-dark { color: #f2ede4; }
 
 /* ---------- Announcement + Navbar ---------- */
-.announce { background-color: #141613; color: #e8e1d5; font-size: 13px; line-height: 1.4; padding-top: 10px; padding-bottom: 10px; text-align: center; letter-spacing: 0.04em; }
+.announce { height: 38px; display: flex; align-items: center; justify-content: center; background-color: #141613; color: #e8e1d5; font-size: 13px; line-height: 1.4; padding-top: 10px; padding-bottom: 10px; text-align: center; letter-spacing: 0.04em; }
 .announce-accent { color: #f08a5d; font-weight: 700; }
-.navbar { position: sticky; top: 0; z-index: 100; background-color: rgba(242, 237, 228, 0.88); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(20, 22, 19, 0.1); }
+.header-wrap { position: sticky; top: -38px; z-index: 100; }
+.announce-height { height: 38px; }
+.navbar { position: relative; background-color: rgba(242, 237, 228, 0.88); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(20, 22, 19, 0.1); }
 .navbar-inner { display: flex; align-items: center; justify-content: space-between; height: 84px; }
 .brand { display: flex; align-items: center; grid-column-gap: 10px; color: #141613; }
 .brand-mark { width: 34px; height: 34px; border-radius: 999px; background-color: #d4502a; display: flex; align-items: center; justify-content: center; color: #fffdf9; font-family: "Noto Serif JP", serif; font-size: 17px; line-height: 1; }
@@ -311,8 +313,8 @@ a { color: inherit; text-decoration: none; }
    ========================================================================== */
 @media screen and (max-width: 991px) {
   .section { padding-top: 96px; padding-bottom: 96px; }
-  .h1 { font-size: 76px; }
-  .h2 { font-size: 54px; }
+  .heading-xl { font-size: 76px; }
+  .heading-l { font-size: 54px; }
   .statement { font-size: 40px; }
   .grid-2, .hero-grid, .story-grid, .omakase-grid, .reserve-grid, .page-header-grid { grid-template-columns: 1fr; grid-row-gap: 56px; }
   .grid-3 { grid-template-columns: 1fr 1fr; }
@@ -339,9 +341,9 @@ a { color: inherit; text-decoration: none; }
 @media screen and (max-width: 767px) {
   .container { padding-left: 20px; padding-right: 20px; }
   .section { padding-top: 72px; padding-bottom: 72px; }
-  .h1 { font-size: 56px; }
-  .h2 { font-size: 42px; }
-  .h3 { font-size: 32px; }
+  .heading-xl { font-size: 56px; }
+  .heading-l { font-size: 42px; }
+  .heading-m { font-size: 32px; }
   .statement { font-size: 32px; }
   .lead { font-size: 18px; }
   .grid-3, .grid-4 { grid-template-columns: 1fr; }
@@ -370,8 +372,8 @@ a { color: inherit; text-decoration: none; }
    Mobile portrait – max-width 479px
    ========================================================================== */
 @media screen and (max-width: 479px) {
-  .h1 { font-size: 46px; }
-  .h2 { font-size: 36px; }
+  .heading-xl { font-size: 46px; }
+  .heading-l { font-size: 36px; }
   .hero-stats { flex-wrap: wrap; grid-row-gap: 20px; }
   .dish-thumb { width: 64px; height: 64px; }
   .dish-name, .dish-price { font-size: 22px; }

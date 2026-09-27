@@ -47,6 +47,35 @@ Post (CMS template) · Style guide · Licenses · Changelog · 404 (+ Webflow pa
   title color, arrow fill), ticker marquee loop.
 - **Menu page:** native Tabs, one CMS list per category (filtered by category reference).
 
+## Webflow build (status)
+
+Built in the Webflow site "Alex's Groovy Site" (`6a3434fba4e1760c6191fcc1`),
+staging: https://alexs-groovy-site-68b68b.webflow.io
+
+Done via the Webflow Data API / MCP:
+
+- All static pages, CMS template pages (Dish, Journal post, Menu category) and three shared
+  components (Header, Footer, Reservation Block).
+- CMS collections Menu Categories (4), Dishes (22), Journal Posts (3), all published.
+- Collection lists: Menu (one list per category), Home (featured dishes, latest posts),
+  Journal (featured + grid), Post template ("More stories").
+- Native forms: Reservation Form, Contact Form, Newsletter Form with success/error states.
+- Mobile menu: IX3 click interaction on `.menu-button` toggling `.nav-menu.is-open`
+  (component-scoped to Header). Active nav link style lives in a small embed in the Header.
+- Rich-text styling for journal posts via an embed on the post template (`.rich-text h2/h3/blockquote`).
+
+`tools/wf_chunks.py`, `tools/wf_actions.py` and `tools/wf_before.py` turn the static prototype into
+WHTML build actions; `data/webflow_site.json` and `data/webflow_assets.json` hold the Webflow IDs.
+
+### Left for the Designer (cannot be set through the API)
+
+1. Menu category template: add a Dishes collection list filtered by
+   "Category = Current Menu Category" (the API does not accept current-item filters).
+2. Optional: scroll-reveal and hover interactions from `css/interactions.css`.
+3. Utility pages (404, password) are Webflow defaults – restyle in the Designer if wanted.
+4. Marketplace submission needs a Webflow creator account; the "Made in Webflow" badge
+   disappears on a paid site plan.
+
 ## Images
 
 `images/` – Pexels / Unsplash licence, free for commercial use, credits in `images/CREDITS.md`.

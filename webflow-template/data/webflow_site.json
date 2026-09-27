@@ -1,0 +1,38 @@
+{
+ "site": "6a3434fba4e1760c6191fcc1",
+ "pages": {
+  "index": "6a343500a4e1760c6191fdb0",
+  "about": "6ab97376d18e7d827aa67990",
+  "menu": "6ab97376f77d8c41978cc1d1",
+  "reservations": "6ab97377f77d8c41978cc1f4",
+  "contact": "6ab97377790855eea6b9c768",
+  "gallery": "6ab97377790855eea6b9c7b5",
+  "journal": "6ab97378ea0e1f450c964923",
+  "style-guide": "6ab97378ea0e1f450c964968",
+  "licenses": "6ab973784b1fcb9489e32310",
+  "changelog": "6ab9737b81d40ecb77fcf1e5"
+ },
+ "components": {
+  "Header": "6ed3f7fd-b950-9f7f-420c-025ec820212b",
+  "Footer": "04d8242d-dfdb-15f7-cc78-3cd2cfc642b8",
+  "Reservation Block": "e05f2cf3-d995-4f4f-9d25-2fa7744d0bbc"
+ },
+ "home_wrapper": "6d7f2049-24a5-309f-ae4b-b07c8951b37e",
+ "collections": {
+  "categories": "6ab973f92fbd6e8f0784a9e1",
+  "dishes": "6ab973fadabee97a52d260e4",
+  "posts": "6ab973fab376f8280c360113"
+ },
+ "tag_options": {
+  "Chef's pick": "7e3de89d2d670d4a6be16a6e03276ba2",
+  "Spicy": "0d6044a9eeb635d59824dd489f27d99e",
+  "Vegan": "c7666d738309d65a9eeda979e24b891c",
+  "Vegetarian": "77b303fa2bda606d49feef19baced7e0"
+ },
+ "category_items": {
+  "sushi": "6ab9742ebac68f4d8662061c",
+  "robata": "6ab9742ebac68f4d8662061e",
+  "bowls": "6ab9742ebac68f4d86620620",
+  "sweets": "6ab9742ebac68f4d86620622"
+ }
+}

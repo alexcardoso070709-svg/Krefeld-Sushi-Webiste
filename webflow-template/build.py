@@ -35,13 +35,13 @@ TAG_CLASS = {"Spicy": " is-spicy", "Chef's pick": " is-chef"}
 
 
 def dish(d, thumb=True):
-    tags = "".join(f'<span class="tag{TAG_CLASS.get(t, "")}">{esc(t)}</span>' for t in d["tags"])
+    tags = "".join(f'<span class="tag{TAG_CLASS.get(t,"")}">{esc(t)}</span>' for t in d["tags"])
     t = f'<div class="dish-thumb"><img class="cover-image" src="{img(d["img"])}" alt="{esc(d["name"])}" loading="lazy"></div>' if thumb else ""
     return (f'<a href="dish.html" class="dish-item">{t}<div class="dish-body"><div class="dish-head">'
             f'<span class="dish-name">{esc(d["name"])}</span><span class="dish-dots"></span>'
             f'<span class="dish-price">${esc(d["price"])}</span></div>'
             f'<p class="dish-desc">{esc(d["desc"])}</p>'
-            f'{f"<div class=tag-row>{tags}</div>" if tags else ""}</div></a>')
+            + (f'<div class="tag-row">{tags}</div>' if tags else "") + "</div></a>")
 
 
 def dishes(cat):
@@ -59,7 +59,7 @@ def categories():
         out.append(f'<a href="menu.html" class="category-card"><div class="category-image-wrap">'
                    f'<img class="category-image" src="{img(c["image"])}" alt="{esc(c["name"])}" loading="lazy">'
                    f'<span class="category-count">{n} dishes</span></div>'
-                   f'<div class="category-meta"><div class="stack-s"><span class="h4">{esc(c["name"])}</span>'
+                   f'<div class="category-meta"><div class="stack-s"><span class="heading-s">{esc(c["name"])}</span>'
                    f'<span class="small muted">{esc(c["desc"])}</span></div><span class="circle-arrow">→</span></div></a>')
     return '<div class="grid-3">' + "".join(out) + "</div>"
 
