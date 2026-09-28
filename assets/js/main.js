@@ -224,6 +224,91 @@
     }
   });
 
+
+  /* Motion-Paket: Fortschrittsbalken, Parallax, Wort-Reveal, Staffelung, Tilt, Button-Glanz */
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (!reduce) {
+    var bar = document.createElement("div");
+    bar.className = "scroll-progress";
+    body.appendChild(bar);
+
+    var heroBg = document.querySelector(".hero-bg");
+    var plx = [].slice.call(document.querySelectorAll(".image-strip img, .showcase-img img, .post-img img, .dish-card-img img"));
+    plx.forEach(function (img) { img.classList.add("parallax-img"); });
+    var ticking = false;
+    function motion() {
+      ticking = false;
+      var y = window.scrollY, vh = window.innerHeight;
+      var max = document.documentElement.scrollHeight - vh;
+      bar.style.transform = "scaleX(" + (max > 0 ? y / max : 0) + ")";
+      if (heroBg && y < vh * 1.2) heroBg.style.setProperty("--py", (y * 0.35).toFixed(1) + "px");
+      plx.forEach(function (img) {
+        var r = img.parentElement.getBoundingClientRect();
+        if (r.bottom < 0 || r.top > vh) return;
+        var p = (r.top + r.height / 2 - vh / 2) / vh; /* -1..1 */
+        img.style.setProperty("--py", (p * -40).toFixed(1) + "px");
+      });
+    }
+    window.addEventListener("scroll", function () { if (!ticking) { ticking = true; requestAnimationFrame(motion); } }, { passive: true });
+    window.addEventListener("resize", motion);
+    motion();
+
+    /* Überschriften Wort für Wort einblenden */
+    var splitIO = "IntersectionObserver" in window ? new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("is-visible"); splitIO.unobserve(e.target); } });
+    }, { threshold: 0.2 }) : null;
+    document.querySelectorAll(".section-heading h2, .page-hero h1").forEach(function (h) {
+      var i = 0;
+      (function walk(node) {
+        [].slice.call(node.childNodes).forEach(function (n) {
+          if (n.nodeType === 3) {
+            var frag = document.createDocumentFragment();
+            n.textContent.split(/(\s+)/).forEach(function (part) {
+              if (!part) return;
+              if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(part)); return; }
+              var w = document.createElement("span"); w.className = "split-word";
+              var inner = document.createElement("span"); inner.textContent = part; inner.style.setProperty("--i", i++);
+              w.appendChild(inner); frag.appendChild(w);
+            });
+            n.parentNode.replaceChild(frag, n);
+          } else if (n.nodeType === 1 && n.tagName !== "BR") walk(n);
+        });
+      })(h);
+      h.classList.add("is-split");
+      if (splitIO) splitIO.observe(h); else h.classList.add("is-visible");
+    });
+
+    /* Listen gestaffelt einblenden */
+    document.querySelectorAll(".category-row, .post-grid, .card-grid, .feature-grid, .price-grid, .rules-grid, .team-list, .location-list, .gallery-grid, .hours-list").forEach(function (list) {
+      [].slice.call(list.children).forEach(function (c, i) {
+        if (!c.classList.contains("reveal")) c.classList.add("reveal");
+        c.style.setProperty("--i", i);
+      });
+      list.classList.add("stagger");
+    });
+    document.querySelectorAll(".stagger > .reveal:not(.is-visible)").forEach(function (el) {
+      if (typeof io !== "undefined") io.observe(el); else el.classList.add("is-visible");
+    });
+
+    /* 3D-Tilt auf Karten (nur Maus) */
+    if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
+      document.querySelectorAll(".dish-card, .post-card").forEach(function (card) {
+        card.classList.add("tilt");
+        card.addEventListener("mousemove", function (ev) {
+          var r = card.getBoundingClientRect();
+          var x = (ev.clientX - r.left) / r.width - 0.5, yy = (ev.clientY - r.top) / r.height - 0.5;
+          card.style.transform = "perspective(900px) rotateY(" + (x * 6).toFixed(2) + "deg) rotateX(" + (-yy * 6).toFixed(2) + "deg) translateY(-4px)";
+        });
+        card.addEventListener("mouseleave", function () { card.style.transform = ""; });
+      });
+    }
+
+    /* Glanz über Buttons */
+    document.querySelectorAll(".btn").forEach(function (b) {
+      var s = document.createElement("span"); s.className = "shine"; s.setAttribute("aria-hidden", "true"); b.appendChild(s);
+    });
+  }
+
   /* Aktuelles Jahr im Footer */
   document.querySelectorAll("[data-year]").forEach(function (el) { el.textContent = new Date().getFullYear(); });
 })();

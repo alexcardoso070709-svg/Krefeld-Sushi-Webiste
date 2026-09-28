@@ -725,3 +725,25 @@ select.field-dark { background-image: url("data:image/svg+xml,%3Csvg xmlns='http
 .reservation-block .pretitle { color: var(--white); }
 @media (max-width: 767px) { .location-link { text-align: left; } }
 [data-tabs], section[id] { scroll-margin-top: 90px; }
+
+/* ---------- Motion-Paket ---------- */
+.scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 3px; background: var(--skin); transform-origin: 0 50%; transform: scaleX(0); z-index: 1001; pointer-events: none; }
+.hero-bg { translate: 0 var(--py, 0); will-change: translate; }
+.parallax-img { scale: 1.15; translate: 0 var(--py, 0); will-change: translate; }
+.split-word { display: inline-block; overflow: hidden; vertical-align: bottom; padding-bottom: .08em; margin-bottom: -.08em; }
+.split-word > span { display: inline-block; transform: translateY(105%); transition: transform .9s var(--ease); transition-delay: calc(var(--i) * 60ms); }
+.is-split.is-visible .split-word > span { transform: none; }
+.stagger > * { transition-delay: calc(min(var(--i, 0), 5) * 80ms) !important; }
+.tilt { transition: transform .5s var(--ease), box-shadow .5s var(--ease); transform-style: preserve-3d; }
+.tilt:hover { box-shadow: 0 30px 60px -30px rgba(0, 0, 0, .35); }
+.btn { overflow: hidden; transition: background .3s, color .3s, translate .3s var(--ease); }
+.btn:hover { translate: 0 -3px; }
+.btn .shine { position: absolute; inset: 0; background: linear-gradient(110deg, transparent 35%, rgba(255,255,255,.35) 50%, transparent 65%); transform: translateX(-120%); pointer-events: none; }
+.btn:hover .shine { transform: translateX(120%); transition: transform .8s var(--ease); }
+.hero-pretitle { animation: float 6s ease-in-out 2s infinite; }
+@keyframes float { 50% { translate: 0 -8px; } }
+@media (prefers-reduced-motion: reduce) {
+  .split-word > span { transform: none; }
+  .parallax-img, .hero-bg { translate: none; scale: none; }
+  .scroll-progress { display: none; }
+}
